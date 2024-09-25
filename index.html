@@ -15,15 +15,20 @@
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6 text-center">
-            <h2 class="mb-4">MP3 Player with Playlist and Search</h2>
+            <h2 class="mb-4">MP3 Player with Album Cover</h2>
+
+            <!-- Album Cover -->
+            <img id="albumCover" src="assets/images/default-cover.jpg" alt="Album Cover">
 
             <!-- Search Box -->
             <input type="text" id="searchBox" class="form-control mb-3" placeholder="Search audio...">
 
             <!-- Audio Player -->
-            <audio id="audioPlayer" class="w-100" controls>
-                Your browser does not support the audio element.
-            </audio>
+            <div class="mb-3">
+                <audio id="audioPlayer" class="w-100" controls>
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
 
             <!-- Playlist -->
             <div class="playlist-container mt-4" id="playlist">

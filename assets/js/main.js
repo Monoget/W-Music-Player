@@ -1,14 +1,15 @@
-// Sample list of MP3 files (adjust this list to match your actual file structure)
+// Sample list of MP3 files
 const mp3Files = [
     { name: "Karm hai tu moksh hai tu", path: "assets/music/Karm hai tu moksh hai tu.mp3" },
     { name: "Ram Siya Ram Lofi Version", path: "assets/music/Ram Siya Ram Lofi Version.mp3" },
-    { name: "Sachet Parampara  Shiv Tandav Stotram", path: "assets/music/Sachet Parampara  Shiv Tandav Stotram.mp3" }
+    { name: "Sachet Parampara Shiv Tandav Stotram", path: "assets/music/Sachet Parampara Shiv Tandav Stotram.mp3" }
 ];
 
 // jQuery function to load the playlist dynamically
 $(document).ready(function () {
     const playlist = $('#playlist');
     const audioPlayer = $('#audioPlayer');
+    const albumCover = $('#albumCover');
 
     // Load the playlist initially
     function loadPlaylist(files) {
@@ -27,6 +28,24 @@ $(document).ready(function () {
                 $(this).addClass('active-song');
                 audioPlayer.attr('src', $(this).data('src'));
                 audioPlayer[0].play();
+
+                // Read and set album cover using jsmediatags
+                jsmediatags.read(file.path, {
+                    onSuccess: function (tag) {
+                        const image = tag.tags.picture;
+                        if (image) {
+                            const base64String = image.data.reduce((data, byte) => data + String.fromCharCode(byte), '');
+                            const base64 = 'data:' + image.format + ';base64,' + window.btoa(base64String);
+                            albumCover.attr('src', base64);  // Set the cover image dynamically
+                        } else {
+                            albumCover.attr('src', 'assets/images/default-cover.jpg'); // Fallback to default cover
+                        }
+                    },
+                    onError: function (error) {
+                        console.log('Error reading metadata: ', error);
+                        albumCover.attr('src', 'assets/images/default-cover.jpg'); // Fallback to default cover
+                    }
+                });
             });
 
             playlist.append(playlistItem);
