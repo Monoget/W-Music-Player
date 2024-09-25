@@ -23,18 +23,25 @@
             <!-- Search Box -->
             <input type="text" id="searchBox" class="form-control mb-3" placeholder="Search audio...">
 
-            <!-- Audio Player -->
-            <div class="mb-3">
-                <audio id="audioPlayer" class="w-100" controls>
-                    Your browser does not support the audio element.
-                </audio>
+            <!-- Custom Audio Controller -->
+            <div class="custom-audio-controller mb-3">
+                <button id="playPauseBtn" class="btn btn-primary"><i class="fas fa-play"></i></button>
+                <input type="range" id="seekBar" value="0" class="seek-bar">
+                <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
+                <input type="range" id="volumeBar" value="100" class="volume-bar">
             </div>
+
+            <!-- Audio Player (Hidden) -->
+            <audio id="audioPlayer" class="w-100" style="display:none;">
+                Your browser does not support the audio element.
+            </audio>
 
             <!-- Playlist -->
             <div class="playlist-container mt-4" id="playlist"></div>
         </div>
     </div>
 </div>
+
 
 <script src="assets/vendor/Bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/jQuery/jquery-3.6.4.min.js"></script>

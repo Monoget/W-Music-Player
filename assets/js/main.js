@@ -6,8 +6,15 @@ const mp3Files = [
 
 $(document).ready(function () {
     const playlist = $('#playlist');
-    const audioPlayer = $('#audioPlayer');
+    const audioPlayer = $('#audioPlayer')[0];
     const albumCover = $('#albumCover');
+    const playPauseBtn = $('#playPauseBtn');
+    const seekBar = $('#seekBar');
+    const volumeBar = $('#volumeBar');
+    const currentTimeLabel = $('#currentTime');
+    const totalTimeLabel = $('#totalTime');
+
+    let isPlaying = false;
 
     // Load the playlist
     function loadPlaylist(files) {
@@ -20,10 +27,10 @@ $(document).ready(function () {
             playlistItem.on('click', function () {
                 $('.playlist-item').removeClass('active-song');
                 $(this).addClass('active-song');
-                audioPlayer.attr('src', $(this).data('src'));
-                audioPlayer[0].play();
-
-                // Fetch album art from the selected file
+                audioPlayer.src = $(this).data('src');
+                audioPlayer.play();
+                isPlaying = true;
+                updatePlayPauseIcon();
                 fetchAlbumArt($(this).data('src'));
             });
 
@@ -46,25 +53,72 @@ $(document).ready(function () {
                             const base64String = arrayBufferToBase64(albumArt.data);
                             albumCover.attr('src', 'data:' + albumArt.format + ';base64,' + base64String);
                         } else {
-                            // If no album art found, set to default image
                             albumCover.attr('src', 'assets/images/default-cover.jpg');
                         }
                     },
                     onError: function(error) {
                         console.error('Error reading tags:', error);
-                        albumCover.attr('src', 'assets/images/default-cover.jpg'); // Fallback on error
+                        albumCover.attr('src', 'assets/images/default-cover.jpg');
                     }
                 });
             } else {
                 console.error('Failed to fetch file:', xhr.status);
-                albumCover.attr('src', 'assets/images/default-cover.jpg'); // Fallback on error
+                albumCover.attr('src', 'assets/images/default-cover.jpg');
             }
         };
         xhr.onerror = function () {
             console.error('Error fetching file.');
-            albumCover.attr('src', 'assets/images/default-cover.jpg'); // Fallback on error
+            albumCover.attr('src', 'assets/images/default-cover.jpg');
         };
         xhr.send();
+    }
+
+    // Play/pause button
+    playPauseBtn.on('click', function () {
+        if (isPlaying) {
+            audioPlayer.pause();
+        } else {
+            audioPlayer.play();
+        }
+        isPlaying = !isPlaying;
+        updatePlayPauseIcon();
+    });
+
+    // Update play/pause button icon
+    function updatePlayPauseIcon() {
+        if (isPlaying) {
+            playPauseBtn.html('<i class="fas fa-pause"></i>');
+        } else {
+            playPauseBtn.html('<i class="fas fa-play"></i>');
+        }
+    }
+
+    // Update the seek bar and time
+    audioPlayer.addEventListener('timeupdate', function () {
+        const currentTime = audioPlayer.currentTime;
+        const duration = audioPlayer.duration;
+
+        seekBar.val((currentTime / duration) * 100);
+        currentTimeLabel.text(formatTime(currentTime));
+        totalTimeLabel.text(formatTime(duration));
+    });
+
+    // Seek bar change
+    seekBar.on('input', function () {
+        const seekTo = (audioPlayer.duration / 100) * seekBar.val();
+        audioPlayer.currentTime = seekTo;
+    });
+
+    // Volume control
+    volumeBar.on('input', function () {
+        audioPlayer.volume = volumeBar.val() / 100;
+    });
+
+    // Format time (in seconds) to mm:ss
+    function formatTime(seconds) {
+        const minutes = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
     }
 
     loadPlaylist(mp3Files);
@@ -79,3 +133,4 @@ function arrayBufferToBase64(buffer) {
     }
     return window.btoa(binary);
 }
+
