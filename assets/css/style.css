@@ -44,12 +44,45 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #f5f5f5; /* Adds a background color to the controller */
+    padding: 10px; /* Padding around the controls */
+    border-radius: 8px; /* Softens the corners of the controller */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
 }
-.seek-bar, .volume-bar {
-    width: auto;
+
+.seek-bar {
+    flex: 1; /* Expands the seek bar to take up more space */
     margin: 0 10px;
+    height: 6px;
+    background-color: #ddd;
+    border-radius: 5px;
 }
+
+.volume-bar {
+    width: 100px; /* Fixes the width of the volume bar */
+    margin: 0 10px;
+    height: 6px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
 #playPauseBtn {
     font-size: 20px;
-    padding: 10px;
+    padding: 8px 15px;
+    border-radius: 50%; /* Circular button */
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    cursor: pointer;
 }
+
+#playPauseBtn:hover {
+    background-color: #0056b3; /* Darker hover color */
+}
+
+#currentTime, #totalTime {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
