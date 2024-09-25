@@ -1,0 +1,20 @@
+.playlist-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.playlist-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.playlist-item:hover {
+    background-color: #f8f9fa;
+}
+.active-song {
+    background-color: #d1e7dd !important;
+}
+.no-results {
+    text-align: center;
+    padding: 10px;
+    color: #999;
+}
