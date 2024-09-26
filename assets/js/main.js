@@ -7,6 +7,7 @@ $(document).ready(function () {
     const volumeBar = $('#volumeBar');
     const currentTimeLabel = $('#currentTime');
     const totalTimeLabel = $('#totalTime');
+    const playableSongName = $('#playableSongName');
     const volumeIcon = document.getElementById('volumeIcon');
     // Get references to the button and slider elements
     const volumeButton = document.getElementById('volumeButton');
@@ -63,6 +64,7 @@ $(document).ready(function () {
                 isPlaying = true;
                 updatePlayPauseIcon();
                 fetchAlbumArt($(this).data('src'));
+                $('#playableSongName').text($(this).text());
             });
 
             playlist.append(playlistItem);
