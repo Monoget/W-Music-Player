@@ -772,12 +772,193 @@ const mp3FilesMontro = [
 ];
 
 const mp3FilesMatri = [
-    {name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3"},
-    {name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3"}
-];
-
-const mp3FilesNew = [
-    {name: "Sachet Parampara Shiv Tandav Stotram", path: "assets/music/Sachet Parampara  Shiv Tandav Stotram.mp3"}
+    {
+        name: "আও সাজাও মন্দির আজ - কৌশিকী চক্রবর্তী",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/! আও সাজাও মন্দির আজ - কৌশিকী চক্রবর্তী.mp3"
+    },
+    {
+        name: "জয় জয় দেবী চরাচর সারে",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/জয় জয় দেবী চরাচর সারে (320 kbps).mp3"
+    },
+    {
+        name: "জয় জয় দেবী জয় জগজননী",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/জয় জয় দেবী জয় জগজননী Traditional Song Pujor Gaan Sayani Palit (320 kbps).mp3"
+    },
+    {
+        name: "জয় জয় হে ভগবতী",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/জয় জয় হে ভগবতী সুর ভারতী.mp3"
+    },
+    {
+        name: "জয় মা সরস্বতী ভবানী",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/জয় মা সরস্বতী ভবানী SARASWATI VANDANA Composed By Pandit Birju Maharaj (320 kbps).mp3"
+    },
+    {
+        name: "নীলসরস্বতী স্তোত্রম্",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/নীলসরস্বতী স্তোত্রম্ - Madhvi Madhukar Jha.mp3"
+    },
+    {
+        name: "বরদে বরদে বীণা বাদিনী",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/বরদে বরদে বীণা বাদিনী - Saraswati Vandana Mekhla Dasgupta SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "বসন্ত পঞ্চমী পর করজোড়",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/বসন্ত পঞ্চমী পর করজোড় SARASWATI VANDANA 2021 LIVE FROM SOUMYOJIT ACADEMY SOURENDRO-SOUMYOJIT (256 kbps).mp3"
+    },
+    {
+        name: "শুভ্রব্রহ্মবিচারসার পরমা",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/শুভ্রব্রহ্মবিচারসার পরমা Stotram with lyrics (256 kbps).mp3"
+    },
+    {
+        name: "শ্বেত পদ্মাসনা দেবী",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/শ্বেত পদ্মাসনা দেবী.mp3"
+    },
+    {
+        name: "সরস্বতী নমস্তুভ্যম্",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/সরস্বতী নমস্তুভ্যম্ - Armonian_.mp3"
+    },
+    {
+        name: "সরস্বতী বন্দনা",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/সরস্বতী বন্দনা - ইয়াদ করু ধ্যান করু মাতা সরস্বতী - কৌশিকী চক্রবর্তী.mp3"
+    },
+    {
+        name: "সরস্বতী মহাভদ্রা মাহামায়া বরপ্রদা",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/সরস্বতী মহাভদ্রা মাহামায়া বরপ্রদা .mp3"
+    },{
+        name: "একবার বিরাজো গো মা",
+        path: "assets/music/মাতৃ আরাধনা/! একবার বিরাজো গো মা _ Swami Kripakarananda320K).mp3"
+    },
+    {
+        name: "BHAWANI NAVRATRI SONG",
+        path: "assets/music/মাতৃ আরাধনা/BHAWANI NAVRATRI SONG KAILASH KHER KAILASA RECORDS HIT SONG FT. CHANDANA BALA KALYAN (320 kbps).mp3"
+    },
+    {
+        name: "অধম সন্তানের প্রতি",
+        path: "assets/music/মাতৃ আরাধনা/অধম সন্তানের প্রতি ) Maa Durga Pranesh Shom Upali SVF Devotionals (256 kbps).mp3"
+    },
+    {
+        name: "আমার আর কোনও গুন নেই মা",
+        path: "assets/music/মাতৃ আরাধনা/আমার আর কোনও গুন নেই মা) Madhupourna Ganguly SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "আমার চেতনা",
+        path: "assets/music/মাতৃ আরাধনা/আমার চেতনা) Mekhla Dasgupta Lyrical Shyama Sangeet SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "আমি জানি না",
+        path: "assets/music/মাতৃ আরাধনা/আমি জানি না) Buddhadeb Mukhopadhyay Souravh Mukherjee SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "আমি সকল কাজের",
+        path: "assets/music/মাতৃ আরাধনা/আমি সকল কাজের) Sohini Mukherjee Shyama Sangeet SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "একবার বিরাজ গো",
+        path: "assets/music/মাতৃ আরাধনা/একবার বিরাজ গো) Gurujeet Singh Shyama Sangeet Audio Lyrical SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "এবার নবীন মন্ত্রে",
+        path: "assets/music/মাতৃ আরাধনা/এবার নবীন মন্ত্রে) Maa Durga Amrita Nazrul Islam Upali SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "এমন দিন কী হবে তারা",
+        path: "assets/music/মাতৃ আরাধনা/এমন দিন কী হবে তারা ) Anwesha Ganguly Video Lyrical SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "কোথা ভবদারা",
+        path: "assets/music/মাতৃ আরাধনা/কোথা ভবদারা) Audio Lyrical Gurujeet Singh Shyama Sangeet SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "খড়ের প্রতিমা (1)",
+        path: "assets/music/মাতৃ আরাধনা/খড়ের প্রতিমা) Madhuraa Bhattacharya Nazrul Geeti Maa Durga SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "খড়ের প্রতিমা (2)",
+        path: "assets/music/মাতৃ আরাধনা/খড়ের প্রতিমা) Rahul Dutta Kazi Nazrul Islam Maa Durga SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "চিন্ময়ী রূপ ধরে (1)",
+        path: "assets/music/মাতৃ আরাধনা/চিন্ময়ী রূপ ধরে) Maa Durga Arijit Chakraborty Upali SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "চিন্ময়ী রূপ ধরে (2)",
+        path: "assets/music/মাতৃ আরাধনা/চিন্ময়ী রূপ ধরে) Shovan Kazi Nazrul Islam Maa Durga SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "জগতে যা আছে ভালো",
+        path: "assets/music/মাতৃ আরাধনা/জগতে যা আছে ভালো) Buddhadeb Mukhopadhyay Souravh SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "জাগো যোগমায়া",
+        path: "assets/music/মাতৃ আরাধনা/জাগো যোগমায়া) Maa Durga Arijit Chakraborty Upali Chattopadhyay SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "দিন গেল মা",
+        path: "assets/music/মাতৃ আরাধনা/দিন গেল মা) Shyama Sangeet Buddhadeb Mukhopadhyay Souravh SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "দিন যে আমার",
+        path: "assets/music/মাতৃ আরাধনা/দিন যে আমার Buddhadeb Mukhopadhyay Souravh Mukherjee SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "ধন্য ধন্য বলি তারে",
+        path: "assets/music/মাতৃ আরাধনা/ধন্য ধন্য বলি তারে) Pousali Banerjee Full Video Song SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "নমামি গঙ্গে",
+        path: "assets/music/মাতৃ আরাধনা/নমামি গঙ্গে) Full Audio Lyrical Chirantan Suvadeep SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "পড়ে ভবসাগরে",
+        path: "assets/music/মাতৃ আরাধনা/পড়ে ভবসাগরে Matri Sangeet By Sw. Kripakarananda Ji (256 kbps).mp3"
+    },
+    {
+        name: "মধুর আমার মায়ের হাসি",
+        path: "assets/music/মাতৃ আরাধনা/মধুর আমার মায়ের হাসি.mp3"
+    },
+    {
+        name: "মহাকালের কোলে এসে",
+        path: "assets/music/মাতৃ আরাধনা/মহাকালের কোলে এসে ) Sohini Mukherjee Nazrulgeeti SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "মা আছেন আর",
+        path: "assets/music/মাতৃ আরাধনা/মা আছেন আর) Gurujeet Singh Bengali Devotional Shyama Sangeet SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "মা গো তুই",
+        path: "assets/music/মাতৃ আরাধনা/মা গো তুই) Shovan Bickram Subhendu Maa Durga SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "মা গো তোর কৃপা",
+        path: "assets/music/মাতৃ আরাধনা/মা গো তোর কৃপা Buddhadeb Mukhopadhyay Souravh Mukherjee Shyama Sangeet SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "মুছিয়ে দে মোর",
+        path: "assets/music/মাতৃ আরাধনা/মুছিয়ে দে মোর) Gurujeet Singh Shyama Sangeet Lyrical Video SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "যতনে হৃদয়ে রেখো",
+        path: "assets/music/মাতৃ আরাধনা/যতনে হৃদয়ে রেখো) Madhupourna Ganguly Shyama Sangeet SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "যদি ডাকার মতো পারিতাম ডাকতে",
+        path: "assets/music/মাতৃ আরাধনা/যদি ডাকার মতো পারিতাম ডাকতে - Aruna Naskar SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "সংসারের দোলনা (1)",
+        path: "assets/music/মাতৃ আরাধনা/সংসারের দোলনা - Sohini Mukherjee Shyama Sangeet SVF Devotional (256 kbps)(1).mp3"
+    },
+    {
+        name: "সংসারের দোলনা (2)",
+        path: "assets/music/মাতৃ আরাধনা/সংসারের দোলনা - Sohini Mukherjee Shyama Sangeet SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "সখী ওই শোনো",
+        path: "assets/music/মাতৃ আরাধনা/সখী ওই শোনো) Tina Ghoshal Nazrul Geeti Krishna Bhajan SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "সুরের প্রেমাঞ্জলী",
+        path: "assets/music/মাতৃ আরাধনা/সুরের প্রেমাঞ্জলী - Aparajita Chakraborty Shyama Sangeet SVF Devotional (320 kbps).mp3"
+    }
 ];
 
 $(document).ready(function () {
@@ -817,8 +998,6 @@ $(document).ready(function () {
         currentPlaylist = mp3FilesMontro;
     } else if (currentPage === 'matri.html') {
         currentPlaylist = mp3FilesMatri;
-    } else if (currentPage === 'new.html') {
-        currentPlaylist = mp3FilesNew;
     }
 
     // Load the playlist into the UI
