@@ -51,8 +51,9 @@ $(document).ready(function () {
     // Load the playlist
     function loadPlaylist(files) {
         playlist.empty();
-        files.forEach(file => {
-            const playlistItem = $('<div></div>').addClass('playlist-item').text(file.name);
+        files.forEach((file, index) => {
+            // Create a playlist item with a serial number
+            const playlistItem = $('<div></div>').addClass('playlist-item').text(`${index + 1}. ${file.name}`);
             playlistItem.data('src', file.path);
 
             // Click event to play the song
