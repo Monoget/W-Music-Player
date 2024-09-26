@@ -6,8 +6,40 @@ const mp3FilesIndex = [
 
 const mp3FilesLatest = [
     {
-        name: "Latest Track 1",
-        path: "assets/music/Latest/Instrumental Music/Music.Ayigirinandini_#Dasaraspl_#VeenaSrivani(256k).mp3"
+        name: "IM- Ayigirinandini Dasaraspl - VeenaSrivani",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Instrumental Music/Ayigirinandini Dasaraspl VeenaSrivani.mp3"
+    },
+    {
+        name: "IM- Raag hameer on the sitar - Nandita",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Instrumental Music/Music.Raag hameer on the sitar _ Nandita.mp3"
+    },
+    {
+        name: "IM- Raga Jhinjhoti - Niladri Kumar",
+        path: "IM- assets/music/আধুনিক ফিউশন ও অন্যান্য/Instrumental Music/Music.Raga_Jhinjhoti_-_Niladri_Kumar.mp3"
+    },
+    {
+        name: "IM- Raga Malhar Sitar - Niladri Kumar",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Instrumental Music/Music.Raga_Malhar_Sitar_-_Niladri_Kumar(128k).mp3"
+    },
+    {
+        name: "IM- Sandhya Raga by Ravi Shankar students",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Instrumental Music/Music.Sandhya Raga by Ravi Shankar students.mp3"
+    },
+    {
+        name: "IM- shivatandavasthotram - veenasrivani",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Instrumental Music/Music.shivatandavasthotram veenasrivani .mp3"
+    },
+    {
+        name: "IM- Veena - World Record",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Instrumental Music/Music.Veena_-_World_Record.mp3"
+    },
+    {
+        name: "Brodha V - Aathma Raama",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! Brodha V - Aathma Raama [Music Video] (256 kbps).mp3"
+    },
+    {
+        name: "Brodha V - AIGIRI NANDINI [Hip Hop Version]",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! Brodha V - AIGIRI NANDINI [Hip Hop Version] (320 kbps).mp3"
     }
 ];
 

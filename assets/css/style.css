@@ -1,7 +1,7 @@
-.playlist-container {
+/*.playlist-container {
     max-height: 300px;
     overflow-y: auto;
-}
+}*/
 
 .playlist-item {
     cursor: pointer;
