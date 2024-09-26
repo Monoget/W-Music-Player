@@ -245,27 +245,27 @@ const mp3FilesKrishna = [
         path: "assets/music/কৃষ্ণ ভজন/! হরি বলবো আর মদনমোহন হেরিব গো.mp3"
     },
     {
-        name: "হরি_বলো_হরি_বলো_জপ_হরি_নাম_!!",
+        name: "হরি বলো হরি বলো জপ হরি নাম!",
         path: "assets/music/কৃষ্ণ ভজন/! হরি_বলো_হরি_বলো_জপ_হরি_নাম_!!.mp3"
     },
     {
-        name: "এখনো সে বৃন্দাবনে) Bhaba Pagla",
+        name: "এখনো সে বৃন্দাবনে Bhaba Pagla",
         path: "assets/music/কৃষ্ণ ভজন/এখনো সে বৃন্দাবনে) Bhaba Pagla Tina Ghoshal Tapan Sinha SVF Devotional (256 kbps).mp3"
     },
     {
-        name: "এবার করুনা কর)",
+        name: "এবার করুনা কর",
         path: "assets/music/কৃষ্ণ ভজন/এবার করুনা কর) বৈষ্ণব বিজ্ঞপ্তি Vishakha Devi Dasi SVF Devotional (256 kbps).mp3"
     },
     {
-        name: "এসেছে ব্রজের বাঁকা)",
+        name: "এসেছে ব্রজের বাঁকা",
         path: "assets/music/কৃষ্ণ ভজন/এসেছে ব্রজের বাঁকা) Lyrical Chhoto Kirtan Doharki SVF Devotional (256 kbps).mp3"
     },
     {
-        name: "ও বাঁশি)",
+        name: "ও বাঁশি",
         path: "assets/music/কৃষ্ণ ভজন/ও বাঁশি) Pousali Banerjee Full Video Song Krishna SVF Devotional (256 kbps).mp3"
     },
     {
-        name: "ও মা যশোদে গো)",
+        name: "ও মা যশোদে গো",
         path: "assets/music/কৃষ্ণ ভজন/ও মা যশোদে গো) Tina Ghoshal SVF Devotional (256 kbps).mp3"
     },
     {
