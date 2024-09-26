@@ -16,6 +16,8 @@ $(document).ready(function () {
 
     let isPlaying = false;
 
+    audioPlayer.volume=volumeBar.val()/100;
+
     // Load the playlist
     function loadPlaylist(files) {
         playlist.empty();
