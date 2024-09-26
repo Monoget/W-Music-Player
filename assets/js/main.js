@@ -502,8 +502,38 @@ const mp3FilesClassic = [
 ];
 
 const mp3FilesBromho = [
-    {name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3"},
-    {name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3"}
+    {
+        name: "এসো বেদের পাঠশালায় বাংলাদেশ অগ্নিবীর",
+        path: "assets/music/ব্রহ্মসংগীত/! এসো বেদের পাঠশালায় বাংলাদেশ অগ্নিবীর Bangladesh Agniveer (320 kbps).mp3"
+    },
+    {
+        name: "नित्यनिरंजन निखिलकारण-ब्रह्म समाज",
+        path: "assets/music/ব্রহ্মসংগীত/नित्यनिरंजन निखिलकारण-ब्रह्म समाज-Nitya Niranjan Nikhilkaran (256 kbps).mp3"
+    },
+    {
+        name: "কোথা আছ প্রভু",
+        path: "assets/music/ব্রহ্মসংগীত/কোথা আছ প্রভু - রবীন্দ্রনাথ ঠাকুর.mp3"
+    },
+    {
+        name: "তুমি নির্মল কর",
+        path: "assets/music/ব্রহ্মসংগীত/তুমি নির্মল কর) Shithi Saha Amit - Ishan Rajanikanta Sen SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "তুমি নির্মল করো",
+        path: "assets/music/ব্রহ্মসংগীত/তুমি নির্মল করো _Tumi Nirmolo Koro Mongolo Kore with English translation _ ব্রহ্মসংগীত _ BD Agniveer_rQamgyIrGJM.mp3"
+    },
+    {
+        name: "নয়ন তোমারে",
+        path: "assets/music/ব্রহ্মসংগীত/নয়ন তোমারে - রবীন্দ্রনাথ ঠাকুর.mp3"
+    },
+    {
+        name: "মঙ্গল দীপ জ্বেলে",
+        path: "assets/music/ব্রহ্মসংগীত/মঙ্গল দীপ জ্বেলে Lata Mangeshkar Bappi Lahiri Bengali song (256 kbps).mp3"
+    },
+    {
+        name: "হরি তোমায় ডাকি",
+        path: "assets/music/ব্রহ্মসংগীত/হরি তোমায় ডাকি - রবীন্দ্রনাথ ঠাকুর.mp3"
+    }
 ];
 
 const mp3FilesMontro = [
