@@ -427,8 +427,78 @@ const mp3FilesKrishna = [
 ];
 
 const mp3FilesClassic = [
-    {name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3"},
-    {name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3"}
+    {
+        name: "Ekdantaya Vakratundaya Gauritanayay Dhimahi",
+        path: "assets/music/ক্লাসিক/! Ekdantaya Vakratundaya Gauritanayay Dhimahi Shankar Mahadevan Ajay Atul Shubhra Agnihotri (320 kbps).mp3"
+    },
+    {
+        name: "Jaago Mohan Pyare",
+        path: "assets/music/ক্লাসিক/! Jaago mohan pyare a glimpse of raga Bhairav satyam upadhyay (320 kbps).mp3"
+    },
+    {
+        name: "Man Mandira - Shankar Mahadevan",
+        path: "assets/music/ক্লাসিক/! Man_Mandira_-_Shankar_Mahadevan_(128k).mp3"
+    },
+    {
+        name: "Man Mandira - Shivam Mahadevam",
+        path: "assets/music/ক্লাসিক/! Man_Mandira_-_Shivam_Mahadevam_(128k).mp3"
+    },
+    {
+        name: "Panchvati Manbhaavan Upwan",
+        path: "assets/music/ক্লাসিক/! Panchvati Manbhaavan Upwan (RAMAYAN) Bhajan ~ short cover by Saloni Bhatia (320 kbps).mp3"
+    },
+    {
+        name: "Snaskrit Song Panchavati Upvan",
+        path: "assets/music/ক্লাসিক/! Snaskrit song Panchavati  Upvan (cover) (256 kbps).mp3"
+    },
+    {
+        name: "অরুণি কিরণি",
+        path: "assets/music/ক্লাসিক/! অরুণি কিরণি -_katyar_kaljat_ghusali_(128k).mp3"
+    },
+    {
+        name: "গণেশ বন্দনা - সুর নিরাগস হো",
+        path: "assets/music/ক্লাসিক/! গণেশ বন্দনা - সুর নিরাগস হো - Katyar Kaljat Ghusli - Shankar Mahadevan & Anandi Joshi Shankar - Ehsaan - Loy (256 kbps).mp3"
+    },
+    {
+        name: "গাইয়ে গণপতি",
+        path: "assets/music/ক্লাসিক/! গাইয়ে গণপতি (গণেশ বন্দনা) By Kaushiki Chakrabarty (256 kbps).mp3"
+    },
+    {
+        name: "শিব কৈলাসো কে বাসী",
+        path: "assets/music/ক্লাসিক/! শিব কৈলাসো কে বাসী By Isha Volunteers (192 kbps).mp3"
+    },
+    {
+        name: "He Partha Sarati Bajao Bajao Panchajonnya Shongka",
+        path: "assets/music/ক্লাসিক/He Partha Sarati Bajao Bajao Panchajonnya Shongka (256 kbps).mp3"
+    },
+    {
+        name: "Je Trisa Jagile Dev",
+        path: "assets/music/ক্লাসিক/Je trisa jagile Dev goutam. (256 kbps).mp3"
+    },
+    {
+        name: "Mangal Bhavan Amangal Hari",
+        path: "assets/music/ক্লাসিক/Mangal Bhavan Amangal Hari Ravindra Jain Shri Ram Leela Special Tilak (256 kbps).mp3"
+    },
+    {
+        name: "Most Soothing Bhajan Shree Ram Chandra Kripalu Stuti",
+        path: "assets/music/ক্লাসিক/Most Soothing Bhajan Shree Ram Chandra Kripalu Stuti श्री राम आरती Agam Aggarwal (256 kbps).mp3"
+    },
+    {
+        name: "Nagri Ho Ayodhya Si",
+        path: "assets/music/ক্লাসিক/Nagri ho Ayodhya si Shiva Chaudhary Raam Bhajan @nishmusic7650 (256 kbps).mp3"
+    },
+    {
+        name: "Panchvati Mann Bhavan Upvan Acoustic Cover",
+        path: "assets/music/ক্লাসিক/Panchvati Mann Bhavan Upvan Acoustic Cover Ramayan Saadhna Sargam (320 kbps).mp3"
+    },
+    {
+        name: "Parvati Vallabha Ashtakam",
+        path: "assets/music/ক্লাসিক/Parvati Vallabha Ashtakam Damaru Adiyogi Chants Sounds of Isha (256 kbps).mp3"
+    },
+    {
+        name: "সাকার সগুন সৌম্যরূপ",
+        path: "assets/music/ক্লাসিক/সাকার সগুন সৌম্যরূপ.mp3"
+    }
 ];
 
 const mp3FilesBromho = [
