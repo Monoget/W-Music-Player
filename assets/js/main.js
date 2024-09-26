@@ -537,8 +537,238 @@ const mp3FilesBromho = [
 ];
 
 const mp3FilesMontro = [
-    {name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3"},
-    {name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3"}
+    {
+        name: "Veda Mantra Chant By Srikanta Acharya",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/Veda Mantra Chant By Srikanta Acharya -SB Devotional (320 kbps).mp3"
+    },
+    {
+        name: "অসতো মা সদ্গময় - Early Morning Chant",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/অসতো মা সদ্গময় - Early Morning Chant - Peace Mantra - Spiritual (256 kbps).mp3"
+    },
+    {
+        name: "অহং রুদ্রেভি দেবীসূক্তম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/অহং রুদ্রেভি দেবীসূক্তম্ Aditi Roy Nilanjan Ghosh MAHALAYA (320 kbps).mp3"
+    },
+    {
+        name: "ঈশ্বর স্তুতি মন্ত্র (উচ্চারণ ও অনুবাদসহ)",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/ঈশ্বর স্তুতি মন্ত্র (উচ্চারণ ও অনুবাদসহ) Ishwar Stuti Mantra With pronunciation & translation (320 kbps).mp3"
+    },
+    {
+        name: "গায়ত্রী মন্ত্র - Fusion version",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/গায়ত্রী মন্ত্র - Fusion version by Armonian (320 kbps).mp3"
+    },
+    {
+        name: "দেবী সূক্তম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/দেবী সূক্তম্ (320 kbps).mp3"
+    },
+    {
+        name: "মহামৃত্যুঞ্জয় মন্ত্র",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/মহামৃত্যুঞ্জয় মন্ত্র - Stereo track and 8D Audio track (320 kbps).mp3"
+    },
+    {
+        name: "শিবসংকল্প সূক্তম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/শিবসংকল্প সূক্তম্ Sanskrit Vedic Mantra Pure Resolution for the Mind (256 kbps).mp3"
+    },
+    {
+        name: "সংগঠনসূক্তম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/সংগঠনসূক্তম্ -_Jahnavi_Siddhanta(128k).mp3"
+    },
+    {
+        name: "সামবেদ- শুদ্ধ উচ্চারণ ও বাংলা অনুবাদ",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/সামবেদ- শুদ্ধ উচ্চারণ ও বাংলা অনুবাদ _ মন্ত্র ১ থেকে ২০ _ Samaveda- Chant and Translation _ Agniveer(MP3_160K).mp3"
+    },
+    {
+        name: "কর্পূরগৌরম্ করুণাবতারম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/! কর্পূরগৌরম্ করুণাবতারম্ Mahadev Song Devo ke Dev Mahadev Song (256 kbps).mp3"
+    },
+    {
+        name: "কল্যানাদ্ভুতদাত্রায় কামিতার্থপ্রদায়িনে",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/! কল্যানাদ্ভুতদাত্রায় কামিতার্থপ্রদায়িনে at ISKCON(MP3_160K).mp3"
+    },
+    {
+        name: "জটাজুটসমাযুক্তামর্ধেন্দুকৃতশেখরাম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/! জটাজুটসমাযুক্তামর্ধেন্দুকৃতশেখরাম্.mp3"
+    },
+    {
+        name: "দেবোকে দেব মহাদেব - শিব শিব শিব শিব",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/! দেবোকে দেব মহাদেব - শিব শিব শিব শিব  (320 kbps).mp3"
+    },
+    {
+        name: "নারায়ণতে নমো নমো",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/! নারায়ণতে নমো নমো Kskcon Bangalore .mp3"
+    },
+    {
+        name: "নৃসিংহ স্তোত্রম্ নমস্তে নরসিংহায়",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/! নৃসিংহ স্তোত্রম্ নমস্তে নরসিংহায়.mp3"
+    },
+    {
+        name: "বেঙ্কটাচলনিলয়ম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/! বেঙ্কটাচলনিলয়ম্ বৈকুন্ঠপুরবাসম্.mp3"
+    },
+    {
+        name: "ভজ গোবিন্দম",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/! ভজ_গোবিন্দম_মূঢ়মতে_(128k).m4a"
+    },
+    {
+        name: "শিবতাণ্ডবস্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/! শিবতাণ্ডবস্তোত্রম্ original (The best among the best) [HD 1080p] (256 kbps).mp3"
+    },
+    {
+        name: "হরিস্তোত্রম্ (POSITIVITY OF SOUL)",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/! হরিস্তোত্রম্ (POSITIVITY OF SOUL) (320 kbps).mp3"
+    },
+    {
+        name: "Theme of Lord Shiva Powerful Fusion Music",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/Theme of Lord Shiva Powerful Fusion Music (320 kbps).mp3"
+    },
+    {
+        name: "Theme of SHIVA-3",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/Theme of SHIVA-3 Armonian (320 kbps).mp3"
+    },
+    {
+        name: "Vedsar Shiv Stav",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/Vedsar Shiv Stav -- Shiva Stotram -- Adi Shankaracharya Stotras -- Madhvi Madhukar Jha.mp3"
+    },
+    {
+        name: "অচ্যুতাষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/অচ্যুতাষ্টকম্ -अच्युताष्टकम् l Achyutam Keshavam - Madhvi Madhukar Jha.mp3"
+    },
+    {
+        name: "অপরাজিতা স্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/অপরাজিতা স্তোত্রম্ Aparajita Stotram With Lyrics Most Powerful Durga Mantra Chants Of Devi (256 kbps).mp3"
+    },
+    {
+        name: "আদ্যাস্তোত্রমৃ",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/আদ্যাস্তোত্রমৃ .mp3"
+    },
+    {
+        name: "কালভৈরবস্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/কালভৈরবস্তোত্রম্ I Sooryagayathri (256 kbps).mp3"
+    },
+    {
+        name: "কালিকাষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/কালিকাষ্টকম্ - Madhvi Madhukar Jha.mp3"
+    },
+    {
+        name: "কৃষ্ণাষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/কৃষ্ণাষ্টকম্ - Vasudeva Sutam Devam - Armonian (256 kbps).mp3"
+    },
+    {
+        name: "চন্দ্রশেখর অষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/চন্দ্রশেখর অষ্টকম্ Damaru Adiyogi Chants Sounds of Isha (256 kbps).mp3"
+    },
+    {
+        name: "জগদ্ধাত্রীস্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/জগদ্ধাত্রীস্তোত্রম্ - Debasish Chakraborty - Devotional.mp3"
+    },
+    {
+        name: "জগন্নাথাষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/জগন্নাথাষ্টকম্ - Garbha Navratri Special - Madhavas Rock Band (192 kbps).mp3"
+    },
+    {
+        name: "জয় জয় জপ্য",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/জয় জয় জপ্য.mp3"
+    },
+    {
+        name: "দক্ষিণাকালিকা স্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/দক্ষিণাকালিকা স্তোত্রম্ - Debasish Chakraborty - Kali Vandana - Devi Vandana - .mp3"
+    },
+    {
+        name: "দত্তাত্রেয় স্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/দত্তাত্রেয় স্তোত্রম্ - Madhvi Madhukar.mp3"
+    },
+    {
+        name: "দেবী কবচম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/দেবী কবচম্ Debasish Chakraborty Durga Mantra Devi Vandana (256 kbps).mp3"
+    },
+    {
+        name: "নির্বাণ ষটকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/নির্বাণ ষটকম্ (Ameya Records) (320 kbps).mp3"
+    },
+    {
+        name: "পদ্মনাভম্ ভুজঙ্গশয়নম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/পদ্মনাভম্ ভুজঙ্গশয়নম্ Vishnu Mantra - Armonian (320 kbps).mp3"
+    },
+    {
+        name: "পাণ্ডুরঙ্গষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/পাণ্ডুরঙ্গষ্টকম্ - Madhvi Madhukar.mp3"
+    },
+    {
+        name: "মধুরাষ্টকং",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/মধুরাষ্টকং (Madhurashtakam) Chandrika Bhattacharya Devjit Roy Surinder Devotional (320 kbps).mp3"
+    },
+    {
+        name: "মধুরাষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/মধুরাষ্টকম্ - Agam - Krishna Janmashtami POPULAR NEW KRISHNA BHAJAN (256 kbps).mp3"
+    },
+    {
+        name: "মহালক্ষ্মী মন্ত্র",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/মহালক্ষ্মী মন্ত্র - Armonian (256 kbps).mp3"
+    },
+    {
+        name: "মহিষাসুরমর্দিনী স্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/মহিষাসুরমর্দিনী স্তোত্রম্ Durga Puja 2019 (128 kbps).mp3"
+    },
+    {
+        name: "যা কুন্দেন্দু তুষারহরা ধবলা",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/যা কুন্দেন্দু তুষারহরা ধবলা - या कुंदेन्दु - Saraswathi Mantra (256 kbps).mp3"
+    },
+    {
+        name: "যা দেবী সর্বভূতেষু",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/যা দেবী সর্বভূতেষু by Om Voices (256 kbps).mp3"
+    },
+    {
+        name: "রাজাধিরাজায় Mahabharat রাজ্যভিষেক",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/রাজাধিরাজায় Mahabharat রাজ্যভিষেক song(MP3_160K).mp3"
+    },
+    {
+        name: "রাম অষ্টকম্ মন্ত্র",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/রাম অষ্টকম্ মন্ত্র (Ameya Records) Bhaje Visesha Sundaram!!! श्री रामाष्टकम् (256 kbps).mp3"
+    },
+    {
+        name: "রুদ্র গায়ত্রী",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/রুদ্র গায়ত্রী Rudra Gayatri Mantra - Armonian (256 kbps).mp3"
+    },
+    {
+        name: "রুদ্রাষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/রুদ্রাষ্টকম্ Official Music Video Sonu Nigam I Believe Music Global Music Junction (256 kbps).mp3"
+    },
+    {
+        name: "রুদ্রাষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/রুদ্রাষ্টকম্.mp3"
+    },
+    {
+        name: "শিবতাণ্ডবস্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/শিবতাণ্ডবস্তোত্রম্ - Shankar Mahadevan (256 kbps).mp3"
+    },
+    {
+        name: "শিবতাণ্ডবস্তোত্রম্ (Lyrical Video)",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/শিবতাণ্ডবস্তোত্রম্ Lyrical Video - रावण रचित शिव तांडव स्तोत्रम् - Shiva Song - Shankar Mahadevan (256 kbps).mp3"
+    },
+    {
+        name: "শিবস্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/শিবস্তোত্রম্ - Debasish Chakraborty - Devotional.mp3"
+    },
+    {
+        name: "শিবাষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/শিবাষ্টকম্ Vande Guru Paramparaam Rahul Vellal (256 kbps).mp3"
+    },
+    {
+        name: "সদাশিবাষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/সদাশিবাষ্টকম্ - Armonian (320 kbps).mp3"
+    },
+    {
+        name: "সর্বমঙ্গল মঙ্গল্যে",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/সর্বমঙ্গল মঙ্গল্যে - Durga Devi Mantra - Armonian (256 kbps).mp3"
+    },
+    {
+        name: "হনুমান চালিসা",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/হনুমান চালিসা With Lyrics Shankar Mahadevan Hanuman Bhajan Hanuman_ke_ladle (256 kbps).mp3"
+    },
+    {
+        name: "হরেকৃষ্ণ",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/হরেকৃষ্ণ - Soothing and Relaxing Mantra (256 kbps).mp3"
+    }
 ];
 
 const mp3FilesMatri = [
