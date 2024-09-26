@@ -13,6 +13,10 @@ $(document).ready(function () {
     const volumeBar = $('#volumeBar');
     const currentTimeLabel = $('#currentTime');
     const totalTimeLabel = $('#totalTime');
+    const volumeIcon = document.getElementById('volumeIcon');
+    // Get references to the button and slider elements
+    const volumeButton = document.getElementById('volumeButton');
+    const slider = document.getElementById('volumeSlider');
 
     let isPlaying = false;
 
@@ -114,6 +118,9 @@ $(document).ready(function () {
     // Volume control
     volumeBar.on('input', function () {
         audioPlayer.volume = volumeBar.val() / 100;
+
+        // Change the icon based on the volume level
+        updateVolumeIcon(volumeBar.val());
     });
 
     // Format time (in seconds) to mm:ss
@@ -124,6 +131,38 @@ $(document).ready(function () {
     }
 
     loadPlaylist(mp3Files);
+
+    function updateVolumeIcon(volumeLevel) {
+        if (volumeLevel == 0) {
+            volumeIcon.className = 'fa-solid fa-volume-mute'; // Mute icon
+        } else if (volumeLevel <= 33) {
+            volumeIcon.className = 'fa-solid fa-volume-off'; // Low volume icon
+        } else if (volumeLevel <= 66) {
+            volumeIcon.className = 'fa-solid fa-volume-low'; // Medium volume icon
+        } else {
+            volumeIcon.className = 'fa-solid fa-volume-high'; // High volume icon
+        }
+    }
+
+    // Toggle the slider display when the button is clicked
+    volumeButton.addEventListener('click', function(event) {
+        event.stopPropagation(); // Prevent the click from bubbling up to the document
+        if (slider.style.display === 'none' || slider.style.display === '') {
+            slider.style.display = 'block'; // Show the slider
+        } else {
+            slider.style.display = 'none'; // Hide the slider
+        }
+    });
+
+    // Hide the slider when clicking anywhere else on the document
+    document.addEventListener('click', function(event) {
+        if (slider.style.display === 'block') {
+            // Check if the click is outside the button and the slider
+            if (!volumeButton.contains(event.target) && !slider.contains(event.target)) {
+                slider.style.display = 'none'; // Hide the slider
+            }
+        }
+    });
 });
 
 function arrayBufferToBase64(buffer) {

@@ -64,7 +64,14 @@
                 <button id="playPauseBtn" class="btn btn-primary"><i class="fas fa-play"></i></button>
                 <input type="range" id="seekBar" value="0" class="seek-bar">
                 <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
-                <input type="range" id="volumeBar" value="20" class="volume-bar">
+                <div class="soundBtn ms-2" style="position: relative">
+                    <button id="volumeButton" class="btn btn-secondary" style="width: 50px">
+                        <i class="fa-solid fa-volume-low" id="volumeIcon"></i>
+                    </button>
+                    <div id="volumeSlider" style="position: absolute; top:-85px; left:-45px; background: rgba(0,0,0,0.95); padding: 0 5px 5px 5px; border-radius: 3px; transform: rotate(270deg); display: none;">
+                        <input type="range" id="volumeBar" value="20" class="volume-bar">
+                    </div>
+                </div>
             </div>
 
             <!-- Search Box -->
