@@ -120,16 +120,34 @@ $(document).ready(function () {
         xhr.send();
     }
 
+
     // Play/pause button functionality
     playPauseBtn.on('click', function () {
-        if (isPlaying) {
-            audioPlayer.pause();
+        if (!isPlaying) {
+            // Check if there's a song in the playlist
+            if (currentPlaylist.length > 0) {
+                // Play the first song if nothing is currently playing
+                const firstSong = currentPlaylist[0]; // Reference to the first song
+                audioPlayer.src = firstSong.path;
+                $('#playableSongName').text(firstSong.name);
+                fetchAlbumArt(firstSong.path);
+                audioPlayer.play();
+                isPlaying = true;
+                updatePlayPauseIcon();
+
+                // Add active class to the first song in the playlist
+                $('.playlist-item').removeClass('active-song'); // Remove active class from any previously active song
+                $('.playlist-item').first().addClass('active-song'); // Add active class to the first song
+            }
         } else {
-            audioPlayer.play();
+            // Pause the currently playing song
+            audioPlayer.pause();
+            isPlaying = false;
+            updatePlayPauseIcon();
         }
-        isPlaying = !isPlaying;
-        updatePlayPauseIcon();
     });
+
+
 
     // Update play/pause button icon
     function updatePlayPauseIcon() {
