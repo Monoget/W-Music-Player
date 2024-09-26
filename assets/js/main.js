@@ -1,16 +1,43 @@
 const mp3FilesIndex = [
-    { name: "Karm hai tu moksh hai tu", path: "assets/music/Karm hai tu moksh hai tu.mp3" },
-    { name: "Ram Siya Ram Lofi Version", path: "assets/music/Ram Siya Ram Lofi Version.mp3" },
-    { name: "Sachet Parampara Shiv Tandav Stotram", path: "assets/music/Sachet Parampara  Shiv Tandav Stotram.mp3" }
+    {name: "Karm hai tu moksh hai tu", path: "assets/music/Karm hai tu moksh hai tu.mp3"},
+    {name: "Ram Siya Ram Lofi Version", path: "assets/music/Ram Siya Ram Lofi Version.mp3"},
+    {name: "Sachet Parampara Shiv Tandav Stotram", path: "assets/music/Sachet Parampara  Shiv Tandav Stotram.mp3"}
 ];
 
 const mp3FilesLatest = [
-    { name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3" },
-    { name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3" }
+    {
+        name: "Latest Track 1",
+        path: "assets/music/Latest/Instrumental Music/Music.Ayigirinandini_#Dasaraspl_#VeenaSrivani(256k).mp3"
+    }
+];
+
+const mp3FilesKrishna = [
+    {name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3"},
+    {name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3"}
+];
+
+const mp3FilesClassic = [
+    {name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3"},
+    {name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3"}
+];
+
+const mp3FilesBromho = [
+    {name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3"},
+    {name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3"}
+];
+
+const mp3FilesMontro = [
+    {name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3"},
+    {name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3"}
+];
+
+const mp3FilesMatri = [
+    {name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3"},
+    {name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3"}
 ];
 
 const mp3FilesNew = [
-    { name: "Sachet Parampara Shiv Tandav Stotram", path: "assets/music/Sachet Parampara  Shiv Tandav Stotram.mp3" }
+    {name: "Sachet Parampara Shiv Tandav Stotram", path: "assets/music/Sachet Parampara  Shiv Tandav Stotram.mp3"}
 ];
 
 $(document).ready(function () {
@@ -29,7 +56,7 @@ $(document).ready(function () {
 
     let isPlaying = false;
 
-    audioPlayer.volume=volumeBar.val()/100;
+    audioPlayer.volume = volumeBar.val() / 100;
 
     // Load the appropriate playlist based on the current page
     const currentPage = window.location.pathname.split('/').pop(); // Get the current page name
@@ -38,15 +65,15 @@ $(document).ready(function () {
     } else if (currentPage === 'latest.html') {
         loadPlaylist(mp3FilesLatest);
     } else if (currentPage === 'krishna.html') {
-        loadPlaylist(mp3FilesLatest);
+        loadPlaylist(mp3FilesKrishna);
     } else if (currentPage === 'classic.html') {
-        loadPlaylist(mp3FilesLatest);
+        loadPlaylist(mp3FilesClassic);
     } else if (currentPage === 'bromho.html') {
-        loadPlaylist(mp3FilesLatest);
+        loadPlaylist(mp3FilesBromho);
     } else if (currentPage === 'montro.html') {
-        loadPlaylist(mp3FilesLatest);
+        loadPlaylist(mp3FilesMontro);
     } else if (currentPage === 'matri.html') {
-        loadPlaylist(mp3FilesLatest);
+        loadPlaylist(mp3FilesMatri);
     } else if (currentPage === 'new.html') {
         loadPlaylist(mp3FilesNew);
     }
@@ -82,7 +109,7 @@ $(document).ready(function () {
             if (xhr.status === 200) {
                 const fileBlob = xhr.response;
                 jsmediatags.read(fileBlob, {
-                    onSuccess: function(tag) {
+                    onSuccess: function (tag) {
                         const albumArt = tag.tags.picture;
                         if (albumArt) {
                             const base64String = arrayBufferToBase64(albumArt.data);
@@ -91,7 +118,7 @@ $(document).ready(function () {
                             albumCover.attr('src', 'assets/images/default-cover.jpg');
                         }
                     },
-                    onError: function(error) {
+                    onError: function (error) {
                         console.error('Error reading tags:', error);
                         albumCover.attr('src', 'assets/images/default-cover.jpg');
                     }
@@ -172,7 +199,7 @@ $(document).ready(function () {
     }
 
     // Toggle the slider display when the button is clicked
-    volumeButton.addEventListener('click', function(event) {
+    volumeButton.addEventListener('click', function (event) {
         event.stopPropagation(); // Prevent the click from bubbling up to the document
         if (slider.style.display === 'none' || slider.style.display === '') {
             slider.style.display = 'block'; // Show the slider
@@ -182,7 +209,7 @@ $(document).ready(function () {
     });
 
     // Hide the slider when clicking anywhere else on the document
-    document.addEventListener('click', function(event) {
+    document.addEventListener('click', function (event) {
         if (slider.style.display === 'block') {
             // Check if the click is outside the button and the slider
             if (!volumeButton.contains(event.target) && !slider.contains(event.target)) {
