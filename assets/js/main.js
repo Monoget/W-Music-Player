@@ -1,6 +1,15 @@
-const mp3Files = [
+const mp3FilesIndex = [
     { name: "Karm hai tu moksh hai tu", path: "assets/music/Karm hai tu moksh hai tu.mp3" },
     { name: "Ram Siya Ram Lofi Version", path: "assets/music/Ram Siya Ram Lofi Version.mp3" },
+    { name: "Sachet Parampara Shiv Tandav Stotram", path: "assets/music/Sachet Parampara  Shiv Tandav Stotram.mp3" }
+];
+
+const mp3FilesLatest = [
+    { name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3" },
+    { name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3" }
+];
+
+const mp3FilesNew = [
     { name: "Sachet Parampara Shiv Tandav Stotram", path: "assets/music/Sachet Parampara  Shiv Tandav Stotram.mp3" }
 ];
 
@@ -21,6 +30,26 @@ $(document).ready(function () {
     let isPlaying = false;
 
     audioPlayer.volume=volumeBar.val()/100;
+
+    // Load the appropriate playlist based on the current page
+    const currentPage = window.location.pathname.split('/').pop(); // Get the current page name
+    if (currentPage === 'index.html') {
+        loadPlaylist(mp3FilesIndex);
+    } else if (currentPage === 'latest.html') {
+        loadPlaylist(mp3FilesLatest);
+    } else if (currentPage === 'krishna.html') {
+        loadPlaylist(mp3FilesLatest);
+    } else if (currentPage === 'classic.html') {
+        loadPlaylist(mp3FilesLatest);
+    } else if (currentPage === 'bromho.html') {
+        loadPlaylist(mp3FilesLatest);
+    } else if (currentPage === 'montro.html') {
+        loadPlaylist(mp3FilesLatest);
+    } else if (currentPage === 'matri.html') {
+        loadPlaylist(mp3FilesLatest);
+    } else if (currentPage === 'new.html') {
+        loadPlaylist(mp3FilesNew);
+    }
 
     // Load the playlist
     function loadPlaylist(files) {
@@ -129,8 +158,6 @@ $(document).ready(function () {
         const secs = Math.floor(seconds % 60);
         return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
     }
-
-    loadPlaylist(mp3Files);
 
     function updateVolumeIcon(volumeLevel) {
         if (volumeLevel == 0) {
