@@ -124,20 +124,27 @@ $(document).ready(function () {
     // Play/pause button functionality
     playPauseBtn.on('click', function () {
         if (!isPlaying) {
-            // Check if there's a song in the playlist
-            if (currentPlaylist.length > 0) {
-                // Play the first song if nothing is currently playing
-                const firstSong = currentPlaylist[0]; // Reference to the first song
-                audioPlayer.src = firstSong.path;
-                $('#playableSongName').text(firstSong.name);
-                fetchAlbumArt(firstSong.path);
+            // If no song is currently playing or paused, play the first song
+            if (audioPlayer.currentTime === 0 || audioPlayer.src === '') {
+                // Check if there's a song in the playlist
+                if (currentPlaylist.length > 0) {
+                    const firstSong = currentPlaylist[0]; // Get the first song
+                    audioPlayer.src = firstSong.path;
+                    $('#playableSongName').text(firstSong.name);
+                    fetchAlbumArt(firstSong.path);
+                    audioPlayer.play();
+                    isPlaying = true;
+                    updatePlayPauseIcon();
+
+                    // Add active class to the first song in the playlist
+                    $('.playlist-item').removeClass('active-song'); // Remove active class from any previously active song
+                    $('.playlist-item').first().addClass('active-song'); // Add active class to the first song
+                }
+            } else {
+                // If a song was paused, resume playing it
                 audioPlayer.play();
                 isPlaying = true;
                 updatePlayPauseIcon();
-
-                // Add active class to the first song in the playlist
-                $('.playlist-item').removeClass('active-song'); // Remove active class from any previously active song
-                $('.playlist-item').first().addClass('active-song'); // Add active class to the first song
             }
         } else {
             // Pause the currently playing song
@@ -146,6 +153,7 @@ $(document).ready(function () {
             updatePlayPauseIcon();
         }
     });
+
 
 
 
