@@ -10,6 +10,22 @@
     <link href="assets/vendor/Bootstrap/font/bootstrap-icons.min.css" rel="stylesheet"/>
     <link href="assets/vendor/uikit/css/uikit.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
+
+    <style>
+        .album-cover-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .previous-icon, .next-icon {
+            font-size: 2em; /* Adjust the size as needed */
+            cursor: pointer; /* Change the cursor to pointer for better UX */
+            margin: 0 15px; /* Space between icons and image */
+        }
+
+    </style>
 </head>
 <body>
 <header>
@@ -56,8 +72,11 @@
         <div class="col-md-6 mb-5">
             <h2 class="mb-4 text-center" id="playableSongName">Album Cover</h2>
 
-            <!-- Album Cover -->
-            <img id="albumCover" src="assets/images/default-cover.jpg" alt="Album Cover" class="img-fluid">
+            <div class="album-cover-container text-center">
+                <i class="fas fa-chevron-left previous-icon" id="playPreviousSong"></i>
+                <img id="albumCover" src="assets/images/default-cover.jpg" alt="Album Cover" class="img-fluid">
+                <i class="fas fa-chevron-right next-icon" id="playNextSong"></i>
+            </div>
 
             <!-- Custom Audio Controller -->
             <div class="custom-audio-controller mb-3">

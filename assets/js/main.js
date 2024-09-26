@@ -48,6 +48,16 @@ $(document).ready(function () {
         loadPlaylist(filteredFiles);
     });
 
+    document.getElementById('playPreviousSong').addEventListener('click', function () {
+        // Logic to play the previous song
+        console.log('Playing previous song');
+    });
+
+    document.getElementById('playNextSong').addEventListener('click', function () {
+        // Logic to play the next song
+        console.log('Playing next song');
+    });
+
     // Load the playlist
     function loadPlaylist(files) {
         playlist.empty();
