@@ -1,7 +1,124 @@
 const mp3FilesIndex = [
-    {name: "Karm hai tu moksh hai tu", path: "assets/music/Karm hai tu moksh hai tu.mp3"},
-    {name: "Ram Siya Ram Lofi Version", path: "assets/music/Ram Siya Ram Lofi Version.mp3"},
-    {name: "Sachet Parampara Shiv Tandav Stotram", path: "assets/music/Sachet Parampara  Shiv Tandav Stotram.mp3"}
+    {
+        name: "Karm hai tu moksh hai tu",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Karm hai tu moksh hai tu Sound Track (320 kbps).mp3"
+    },
+    {
+        name: "Ram Siya Ram (Full Song)",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! Ram Siya Ram (Full Song) Sachet Tandon Poonam Thakkar Shabbir Ahmed Sidhika Sharma T-Series (256 kbps).mp3"
+    },
+    {
+        name: "Brodha V - AIGIRI NANDINI [Hip Hop Version]",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! Brodha V - AIGIRI NANDINI [Hip Hop Version] (320 kbps).mp3"
+    },
+    {
+        name: "Shiv tandav stotram - Baahubali The Beginning",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! Shiv tandav stotram _ Baahubali The Beginning .mp3"
+    },
+    {
+        name: "দেখো আলোয় আলোয় আকাশ (অসতো মা সদ্গময়) by Arijit Singh",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! দেখো আলোয় আলোয় আকাশ (অসতো মা সদ্গময়) by Arijit Singh (320 kbps).mp3"
+    },
+    {
+        name: "Ganesh Song - Lambodra",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Lambodra lambodra Song From Vighnaharta Ganesh Ganesh Song From Vighnaharta Ganesh (320 kbps).mp3"
+    },
+    {
+        name: "Mahabharat All Songs",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Mahabharat All songs (256 kbps).mp3"
+    },
+    {
+        name: "Shiv Tandav Stotram",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Sachet Parampara - Shiv Tandav Stotram (Har Har Shiv.mp3"
+    },
+    {
+        name: "Krishna Ji Song Collection",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Sachet Parampara All Shri Krishna Songs Collection _ Krishna Ji Song _TuneLyrico(MP3_320K).mp3"
+    },
+    {
+        name: "Shyama Aan Baso Vrindavan",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Sachet Parampara Shyama Aan Baso Vrindavan Full Song _ Arre Dwaarpalon _ Tune Lyrico(MP3_320K).mp3"
+    },
+    {
+        name: "Maha Shivaratri - In Presence of Sadhguru",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/মহানির্বাণ ষটকম্ In Presence of Sadhguru Maha Shivaratri Isha Yoga Centre (128 kbps).mp3"
+    },
+    {
+        name: "শ্রীকৃষ্ণ গোবিন্দ হরে মুরারি Cover Song by SIMPAL KHAREL Krishna Bhajan 2022 BHAKTI SONG (320 kbps)",
+        path: "assets/music/কৃষ্ণ ভজন/! শ্রীকৃষ্ণ গোবিন্দ হরে মুরারি Cover Song by SIMPAL KHAREL Krishna Bhajan 2022 BHAKTI SONG (320 kbps).mp3"
+    },
+    {
+        name: "Parvati Vallabha Ashtakam",
+        path: "assets/music/ক্লাসিক/Parvati Vallabha Ashtakam Damaru Adiyogi Chants Sounds of Isha (256 kbps).mp3"
+    },
+    {
+        name: "তুমি নির্মল কর",
+        path: "assets/music/ব্রহ্মসংগীত/তুমি নির্মল কর) Shithi Saha Amit - Ishan Rajanikanta Sen SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "হরি তোমায় ডাকি",
+        path: "assets/music/ব্রহ্মসংগীত/হরি তোমায় ডাকি - রবীন্দ্রনাথ ঠাকুর.mp3"
+    },
+    {
+        name: "অহং রুদ্রেভি দেবীসূক্তম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/অহং রুদ্রেভি দেবীসূক্তম্ Aditi Roy Nilanjan Ghosh MAHALAYA (320 kbps).mp3"
+    },
+    {
+        name: "গায়ত্রী মন্ত্র - Fusion version",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/গায়ত্রী মন্ত্র - Fusion version by Armonian (320 kbps).mp3"
+    },
+    {
+        name: "মহামৃত্যুঞ্জয় মন্ত্র",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/বৈদিক মন্ত্রপাঠ/মহামৃত্যুঞ্জয় মন্ত্র - Stereo track and 8D Audio track (320 kbps).mp3"
+    },
+    {
+        name: "জগদ্ধাত্রীস্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/জগদ্ধাত্রীস্তোত্রম্ - Debasish Chakraborty - Devotional.mp3"
+    },
+    {
+        name: "যা কুন্দেন্দু তুষারহরা ধবলা",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/যা কুন্দেন্দু তুষারহরা ধবলা - या कुंदेन्दु - Saraswathi Mantra (256 kbps).mp3"
+    },
+    {
+        name: "রাজাধিরাজায় Mahabharat রাজ্যভিষেক",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/রাজাধিরাজায় Mahabharat রাজ্যভিষেক song(MP3_160K).mp3"
+    },
+    {
+        name: "শিবতাণ্ডবস্তোত্রম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/শিবতাণ্ডবস্তোত্রম্ - Shankar Mahadevan (256 kbps).mp3"
+    },
+    {
+        name: "সদাশিবাষ্টকম্",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/সদাশিবাষ্টকম্ - Armonian (320 kbps).mp3"
+    },
+    {
+        name: "হনুমান চালিসা",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/হনুমান চালিসা With Lyrics Shankar Mahadevan Hanuman Bhajan Hanuman_ke_ladle (256 kbps).mp3"
+    },
+    {
+        name: "হরেকৃষ্ণ",
+        path: "assets/music/মন্ত্র-স্তোত্র-বন্দনা/হরেকৃষ্ণ - Soothing and Relaxing Mantra (256 kbps).mp3"
+    },
+    {
+        name: "সরস্বতী নমস্তুভ্যম্",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/সরস্বতী নমস্তুভ্যম্ - Armonian_.mp3"
+    },
+    {
+        name: "সরস্বতী মহাভদ্রা মাহামায়া বরপ্রদা",
+        path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/সরস্বতী মহাভদ্রা মাহামায়া বরপ্রদা .mp3"
+    },
+    {
+        name: "BHAWANI NAVRATRI SONG",
+        path: "assets/music/মাতৃ আরাধনা/BHAWANI NAVRATRI SONG KAILASH KHER KAILASA RECORDS HIT SONG FT. CHANDANA BALA KALYAN (320 kbps).mp3"
+    },
+    {
+        name: "মধুর আমার মায়ের হাসি",
+        path: "assets/music/মাতৃ আরাধনা/মধুর আমার মায়ের হাসি.mp3"
+    },
+    {
+        name: "জাগো যোগমায়া",
+        path: "assets/music/মাতৃ আরাধনা/জাগো যোগমায়া) Maa Durga Arijit Chakraborty Upali Chattopadhyay SVF Devotional (256 kbps).mp3"
+    }
 ];
 
 const mp3FilesLatest = [
@@ -398,7 +515,7 @@ const mp3FilesKrishna = [
     },
     {
         name: "সখী ওই শোনো",
-        path: "assets/music/কৃষ্ণ ভজন/সখী ওই শোনো) Tina Ghoshal Nazrul Geeti Krishna Bhajan SVF Devotional (256 kbps).mp3"
+        path: "assets/music/কৃষ্ণ ভজন/সখী ওই শোনো.mp3"
     },
     {
         name: "সখী সাজায়ে রাখল",
@@ -823,7 +940,8 @@ const mp3FilesMatri = [
     {
         name: "সরস্বতী মহাভদ্রা মাহামায়া বরপ্রদা",
         path: "assets/music/মাতৃ আরাধনা/সরস্বতী পূজা/সরস্বতী মহাভদ্রা মাহামায়া বরপ্রদা .mp3"
-    },{
+    },
+    {
         name: "একবার বিরাজো গো মা",
         path: "assets/music/মাতৃ আরাধনা/! একবার বিরাজো গো মা _ Swami Kripakarananda320K).mp3"
     },
@@ -952,10 +1070,6 @@ const mp3FilesMatri = [
         path: "assets/music/মাতৃ আরাধনা/সংসারের দোলনা - Sohini Mukherjee Shyama Sangeet SVF Devotional (320 kbps).mp3"
     },
     {
-        name: "সখী ওই শোনো",
-        path: "assets/music/মাতৃ আরাধনা/সখী ওই শোনো) Tina Ghoshal Nazrul Geeti Krishna Bhajan SVF Devotional (256 kbps).mp3"
-    },
-    {
         name: "সুরের প্রেমাঞ্জলী",
         path: "assets/music/মাতৃ আরাধনা/সুরের প্রেমাঞ্জলী - Aparajita Chakraborty Shyama Sangeet SVF Devotional (320 kbps).mp3"
     }
@@ -1004,7 +1118,7 @@ $(document).ready(function () {
     loadPlaylist(currentPlaylist);
 
     // Search functionality
-    document.getElementById('searchBox').addEventListener('input', function() {
+    document.getElementById('searchBox').addEventListener('input', function () {
         const query = this.value.toLowerCase();
         const filteredFiles = currentPlaylist.filter(file => file.name.toLowerCase().includes(query));
         loadPlaylist(filteredFiles);
