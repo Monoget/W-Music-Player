@@ -40,6 +40,158 @@ const mp3FilesLatest = [
     {
         name: "Brodha V - AIGIRI NANDINI [Hip Hop Version]",
         path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! Brodha V - AIGIRI NANDINI [Hip Hop Version] (320 kbps).mp3"
+    },
+    {
+        name: "HARE KRISHNA - Fakira",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! HARE KRISHNA - Fakira(MP3_320K).mp3"
+    },
+    {
+        name: "Ram Siya Ram (Full Song)",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! Ram Siya Ram (Full Song) Sachet Tandon Poonam Thakkar Shabbir Ahmed Sidhika Sharma T-Series (256 kbps).mp3"
+    },
+    {
+        name: "Shiv tandav stotram - Baahubali The Beginning",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! Shiv tandav stotram _ Baahubali The Beginning .mp3"
+    },
+    {
+        name: "আগমনী - একি রণ বাজা বাজে - Eki Rono Baja Baje ",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! আগমনী - একি রণ বাজা বাজে - Eki Rono Baja Baje - শাস্ত্রপৃষ্ঠা (320 kbps).mp3"
+    },
+    {
+        name: "কে কোথায় আমি - Arijit Singh",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! কে_কোথায়_আমি__Arijit_Singh_(128k).mp3"
+    },
+    {
+        name: "দেখো আলোয় আলোয় আকাশ (অসতো মা সদ্গময়) by Arijit Singh",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! দেখো আলোয় আলোয় আকাশ (অসতো মা সদ্গময়) by Arijit Singh (320 kbps).mp3"
+    },
+    {
+        name: "বেঙ্কটাচল নিলয়ম্ by Vijay Prakash",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! বেঙ্কটাচল নিলয়ম্ by Vijay Prakash (256 kbps).mp3"
+    },
+    {
+        name: "ভ্রমর কইয়ো গিয়া - sneha saregama",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! ভ্রমর_কইয়ো_গিয়া - sneha _sa_re_ga(256k).mp3"
+    },
+    {
+        name: "শিবোহম্ শিবোহম্ - Ponniyin Selvan Part 2",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! শিবোহম্ শিবোহম্ _ Ponniyin Selvan Part 2  _ Mani Ratnam  _ Sathyaprakash(MP3_160K).mp3"
+    },
+    {
+        name: "Slowed Reverb Song",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/! শ্রীকৃষ্ণ গোবিন্দ হরে মুরারি _ [ slowed _ reverb .mp3"
+    },
+    {
+        name: "Draupadi Songs Soundtracks",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Draupadi Songs Draupadi All Sound tracks with lyrics Mahabharat Starplus Panchali star plus (256 kbps).mp3"
+    },
+    {
+        name: "Hindu Chalisha - KALKI Samman",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Hindu chalisha KALKI Samman Hindu Dharm Ki (320 kbps).mp3"
+    },
+    {
+        name: "Itni Shakti Hamein Dena Data",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Itni Shakti Hamein Dena Data Vineet Dhingra Ankush Sushma Shreshtha Pushpa Pagdhare Cover (256 kbps).mp3"
+    },
+    {
+        name: "Jai Mahakaali Maakaali",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Jai Mahakaali Maakaali (256 kbps).mp3"
+    },
+    {
+        name: "Karam Ki Talwar Music Video",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Karam Ki Talwar Music Video _ Arjun _ The Warrior Prince _ Sukhwinder Singh _ UTV Motion Pictures(MP3_128K).mp3"
+    },
+    {
+        name: "Karm hai tu moksh hai tu",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Karm hai tu moksh hai tu Sound Track (320 kbps).mp3"
+    },
+    {
+        name: "Ganesh Song - Lambodra",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Lambodra lambodra Song From Vighnaharta Ganesh Ganesh Song From Vighnaharta Ganesh (320 kbps).mp3"
+    },
+    {
+        name: "Madhura Murati Manohara",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Lord Shiva Song Madhura Murati Manohara Ati - মধুর মুরতি মনোহর অতি (256 kbps).mp3"
+    },
+    {
+        name: "LUV KUSH VOL.1",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/LUV KUSH VOL.1 DEVOTIONAL HINDI MOVIE SONGS I AUDIO JUKE BOX (256 kbps).mp3"
+    },
+    {
+        name: "Mahabharat All Songs",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Mahabharat All songs (256 kbps).mp3"
+    },
+    {
+        name: "Sati Se Parvati Tak Ka Safar",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Mahakaali new Song Sati Se Parvati Tak Ka Safar Shiv Shakti Se Hi Poorn Hai Full Song (256 kbps).mp3"
+    },
+    {
+        name: "Mahakaali Title Song",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Mahakaali title song_Mahakaali action _Mahakaali bengali_Mahakaali tandav (320 kbps).mp3"
+    },
+    {
+        name: "Ram Siya Ram - Sachet Tandon",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Ram Siya Ram - Sachet Tandon.mp3"
+    },
+    {
+        name: "Ram Siya Ram Lofi Version",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Ram Siya Ram Lofi Version Mangal Bhavan Amangal Hari (256 kbps).mp3"
+    },
+    {
+        name: "Radha Rani Rajyabhishek Theme",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Rkrishn soundtracks 66 - Radha Rani Rajyabhishek Theme (320 kbps).mp3"
+    },
+    {
+        name: "Kaal Bhairav Ashtakam",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Sachet Parampara - Kaal Bhairav Ashtakam -(MP3_320K).mp3"
+    },
+    {
+        name: "Shiv Tandav Stotram",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Sachet Parampara - Shiv Tandav Stotram (Har Har Shiv.mp3"
+    },
+    {
+        name: "Yasomati Maiya x Ram Siya Ram",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Sachet Parampara - Yasomati Maiya Ram Siya Ram.mp3"
+    },
+    {
+        name: "Krishna Ji Song Collection",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Sachet Parampara All Shri Krishna Songs Collection _ Krishna Ji Song _TuneLyrico(MP3_320K).mp3"
+    },
+    {
+        name: "Shyama Aan Baso Vrindavan",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Sachet Parampara Shyama Aan Baso Vrindavan Full Song _ Arre Dwaarpalon _ Tune Lyrico(MP3_320K).mp3"
+    },
+    {
+        name: "Shri Ram - Epic Warrior 2",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Shri Ram - Epic Warrior 2 - Armonian (320 kbps).mp3"
+    },
+    {
+        name: "Atma Rama Anand Ramana",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/आत्मा रामा - रग रग में राम Atma Rama Anand Ramana.mp3"
+    },
+    {
+        name: "पता नहीं किस रूप में आकर नारायण मिल जाएगा चेतावनी भजन प्रकाश गाँधी PMC संत संदेश",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/पता नहीं किस रूप में आकर नारायण मिल जाएगा चेतावनी भजन प्रकाश गाँधी PMC संत संदेश New Bhajan (256 kbps).mp3"
+    },
+    {
+        name: "भजन तेरे नाम का सुमिरन करके मेरे मन में सुख भर आया II आर्य समाज वैदिक भजन II",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/भजन तेरे नाम का सुमिरन करके मेरे मन में सुख भर आया II आर्य समाज वैदिक भजन II (256 kbps).mp3"
+    },
+    {
+        name: "भजन हे ज्ञानवान भगवन हमको भी ज्ञान दे दो II आर्य समाज वैदिक भजन II",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/भजन हे ज्ञानवान भगवन हमको भी ज्ञान दे दो II आर्य समाज वैदिक भजन II (256 kbps).mp3"
+    },
+    {
+        name: "অচ্যুতম কেশবম্ by Alka Yagnik",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/অচ্যুতম কেশবম্ by Alka Yagnik (256 kbps).mp3"
+    },
+    {
+        name: "গণরাজ (গণপতি) _ Bajirao Mastani",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/গণরাজ (গণপতি) _ Bajirao Mastani .mp3"
+    },
+    {
+        name: "Maha Shivaratri - In Presence of Sadhguru",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/মহানির্বাণ ষটকম্ In Presence of Sadhguru Maha Shivaratri Isha Yoga Centre (128 kbps).mp3"
     }
 ];
 
