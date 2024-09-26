@@ -243,24 +243,37 @@ $(document).ready(function () {
     audioPlayer.volume = volumeBar.val() / 100;
 
     // Load the appropriate playlist based on the current page
+    let currentPlaylist = [];
+
+    // Load the appropriate playlist based on the current page
     const currentPage = window.location.pathname.split('/').pop(); // Get the current page name
     if (currentPage === 'index.html') {
-        loadPlaylist(mp3FilesIndex);
+        currentPlaylist = mp3FilesIndex;
     } else if (currentPage === 'latest.html') {
-        loadPlaylist(mp3FilesLatest);
+        currentPlaylist = mp3FilesLatest;
     } else if (currentPage === 'krishna.html') {
-        loadPlaylist(mp3FilesKrishna);
+        currentPlaylist = mp3FilesKrishna;
     } else if (currentPage === 'classic.html') {
-        loadPlaylist(mp3FilesClassic);
+        currentPlaylist = mp3FilesClassic;
     } else if (currentPage === 'bromho.html') {
-        loadPlaylist(mp3FilesBromho);
+        currentPlaylist = mp3FilesBromho;
     } else if (currentPage === 'montro.html') {
-        loadPlaylist(mp3FilesMontro);
+        currentPlaylist = mp3FilesMontro;
     } else if (currentPage === 'matri.html') {
-        loadPlaylist(mp3FilesMatri);
+        currentPlaylist = mp3FilesMatri;
     } else if (currentPage === 'new.html') {
-        loadPlaylist(mp3FilesNew);
+        currentPlaylist = mp3FilesNew;
     }
+
+    // Load the playlist into the UI
+    loadPlaylist(currentPlaylist);
+
+    // Search functionality
+    document.getElementById('searchBox').addEventListener('input', function() {
+        const query = this.value.toLowerCase();
+        const filteredFiles = currentPlaylist.filter(file => file.name.toLowerCase().includes(query));
+        loadPlaylist(filteredFiles);
+    });
 
     // Load the playlist
     function loadPlaylist(files) {
