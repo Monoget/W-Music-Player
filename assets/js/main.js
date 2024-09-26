@@ -196,8 +196,234 @@ const mp3FilesLatest = [
 ];
 
 const mp3FilesKrishna = [
-    {name: "Latest Track 1", path: "assets/music/Latest Track 1.mp3"},
-    {name: "Latest Track 2", path: "assets/music/Latest Track 2.mp3"}
+    {
+        name: "গোবিন্দ দামোদর মাধবেতি - রোহিত কৌশিক",
+        path: "assets/music/কৃষ্ণ ভজন/! গোবিন্দ দামোদর মাধবেতি - রোহিত কৌশিক.mp3"
+    },
+    {
+        name: "জয় জয় গোরাচাঁদে আরতিক শোভা",
+        path: "assets/music/কৃষ্ণ ভজন/! জয় জয় গোরাচাঁদে আরতিক শোভা.m4a"
+    },
+    {
+        name: "তুলসী কৃষ্ণপ্রেয়সী নমো নমঃ",
+        path: "assets/music/কৃষ্ণ ভজন/! তুলসী কৃষ্ণপ্রেয়সী নমো নমঃ.mp3"
+    },
+    {
+        name: "ভোগ আরতি কীর্তন - ভজ ভকতবৎসল শ্রীগৌর হরি - ইসকন",
+        path: "assets/music/কৃষ্ণ ভজন/! ভোগ আরতি কীর্তন - ভজ ভকতবৎসল শ্রীগৌর হরি - ইসকন.mp3"
+    },
+    {
+        name: "ভোর কীর্তন - বিভাবরী শেষ - ইসকন",
+        path: "assets/music/কৃষ্ণ ভজন/! ভোর কীর্তন - বিভাবরী শেষ - ইসকন.mp3"
+    },
+    {
+        name: "মধুরাষ্টকম্ (Lofi Version)",
+        path: "assets/music/কৃষ্ণ ভজন/! মধুরাষ্টকম্ (Lofi Version).mp3"
+    },
+    {
+        name: "মম মন মন্দিরে রহ নিশি-দিন - রোহিত কৌশিক",
+        path: "assets/music/কৃষ্ণ ভজন/! মম মন মন্দিরে রহ নিশি-দিন - রোহিত কৌশিক.mp3"
+    },
+    {
+        name: "যশোমতীনন্দন - ইসকন",
+        path: "assets/music/কৃষ্ণ ভজন/! যশোমতীনন্দন - ইসকন .mp3"
+    },
+    {
+        name: "শ্রীকৃষ্ণ গোবিন্দ হরে মুরারি Cover Song by SIMPAL KHAREL Krishna Bhajan 2022 BHAKTI SONG (320 kbps)",
+        path: "assets/music/কৃষ্ণ ভজন/! শ্রীকৃষ্ণ গোবিন্দ হরে মুরারি Cover Song by SIMPAL KHAREL Krishna Bhajan 2022 BHAKTI SONG (320 kbps).mp3"
+    },
+    {
+        name: "শ্রীকৃষ্ণ চৈতন্যপ্রভু দয়া করো মোরে",
+        path: "assets/music/কৃষ্ণ ভজন/! শ্রীকৃষ্ণ চৈতন্যপ্রভু দয়া করো মোরে.mp3"
+    },
+    {
+        name: "শ্রীহরিস্তোত্রম্",
+        path: "assets/music/কৃষ্ণ ভজন/! শ্রীহরিস্তোত্রম্ .mp3"
+    },
+    {
+        name: "হরি বলবো আর মদনমোহন হেরিব গো",
+        path: "assets/music/কৃষ্ণ ভজন/! হরি বলবো আর মদনমোহন হেরিব গো.mp3"
+    },
+    {
+        name: "হরি_বলো_হরি_বলো_জপ_হরি_নাম_!!",
+        path: "assets/music/কৃষ্ণ ভজন/! হরি_বলো_হরি_বলো_জপ_হরি_নাম_!!.mp3"
+    },
+    {
+        name: "এখনো সে বৃন্দাবনে) Bhaba Pagla",
+        path: "assets/music/কৃষ্ণ ভজন/এখনো সে বৃন্দাবনে) Bhaba Pagla Tina Ghoshal Tapan Sinha SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "এবার করুনা কর)",
+        path: "assets/music/কৃষ্ণ ভজন/এবার করুনা কর) বৈষ্ণব বিজ্ঞপ্তি Vishakha Devi Dasi SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "এসেছে ব্রজের বাঁকা)",
+        path: "assets/music/কৃষ্ণ ভজন/এসেছে ব্রজের বাঁকা) Lyrical Chhoto Kirtan Doharki SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "ও বাঁশি)",
+        path: "assets/music/কৃষ্ণ ভজন/ও বাঁশি) Pousali Banerjee Full Video Song Krishna SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "ও মা যশোদে গো)",
+        path: "assets/music/কৃষ্ণ ভজন/ও মা যশোদে গো) Tina Ghoshal SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "ও শ্যাম আমি তোমার",
+        path: "assets/music/কৃষ্ণ ভজন/ও শ্যাম আমি তোমার .mp3"
+    },
+    {
+        name: "কত আদরে আদরে",
+        path: "assets/music/কৃষ্ণ ভজন/কত আদরে আদরে - Pousali Official Music Video Krishna Naam SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "কুঞ্জের মাঝে",
+        path: "assets/music/কৃষ্ণ ভজন/কুঞ্জের মাঝে - Madol Folk Band Dhamail Radha Krishna Song SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "কৃষ্ণ নাম করো",
+        path: "assets/music/কৃষ্ণ ভজন/কৃষ্ণ নাম করো .mp3"
+    },
+    {
+        name: "কৃষ্ণ বলে",
+        path: "assets/music/কৃষ্ণ ভজন/কৃষ্ণ বলে ) Pousali Banerjee Bhajan Song SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "কৃষ্ণ বলে আমার রাধা",
+        path: "assets/music/কৃষ্ণ ভজন/কৃষ্ণ বলে আমার রাধা - Pousali Banerjee SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "কৃষ্ণ-কেশব জপো মন",
+        path: "assets/music/কৃষ্ণ ভজন/কৃষ্ণ-কেশব জপো মন .mp3"
+    },
+    {
+        name: "কে আবার বাজায় বাঁশি",
+        path: "assets/music/কৃষ্ণ ভজন/কে আবার বাজায় বাঁশি ) Bibhabendu Bhattacharya Lyrical Video SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "গগণে কৃষ্ণমেঘ দোলে",
+        path: "assets/music/কৃষ্ণ ভজন/গগণে কৃষ্ণমেঘ দোলে Tina Ghoshal Nazrul Geeti SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "গোঠের রাখাল",
+        path: "assets/music/কৃষ্ণ ভজন/গোঠের রাখাল) Tina Ghoshal Nazrul Geeti SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "গোপীনাথ",
+        path: "assets/music/কৃষ্ণ ভজন/গোপীনাথ) Vishakha Devi Dasi Lyrical Video Krishna Kirtan SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "জলের ঘাটে",
+        path: "assets/music/কৃষ্ণ ভজন/জলের ঘাটে) Pousali Banerjee Radharomon Radha Krishna Song SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "তোরে বানাইয়া রাই",
+        path: "assets/music/কৃষ্ণ ভজন/তোরে বানাইয়া রাই) Lyrical Pousali Banerjee SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "নমো নমো সুন্দরো",
+        path: "assets/music/কৃষ্ণ ভজন/নমো নমো সুন্দরো .mp3"
+    },
+    {
+        name: "ভজ গৌরাঙ্গ",
+        path: "assets/music/কৃষ্ণ ভজন/ভজ গৌরাঙ্গ) Arpan Chakrabarty Krishna Dasa Kaviraja Goswami SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "ভজিব তোমার রাঙা চরণ",
+        path: "assets/music/কৃষ্ণ ভজন/ভজিব তোমার রাঙা চরণ) Arpan Chakrabarty Pagal Rajjak SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "ভ্রমর কইও গিয়া",
+        path: "assets/music/কৃষ্ণ ভজন/ভ্রমর কইও গিয়া) Pousali Krishna Naam SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "মধুপুর নাগরী",
+        path: "assets/music/কৃষ্ণ ভজন/মধুপুর নাগরী Doharki Dr Tapan Roy Krishna Kirtan SVF Devotional (128 kbps).mp3"
+    },
+    {
+        name: "মরি হে শ্যাম",
+        path: "assets/music/কৃষ্ণ ভজন/মরি হে শ্যাম) Madol Folk Band Krishna Gaan Dr. Tapan Roy SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "মীরা",
+        path: "assets/music/কৃষ্ণ ভজন/মীরা - Rahul Dutta Supratip B Sreetama Official Music Video Bengali New Sad Song 2021 (256 kbps).mp3"
+    },
+    {
+        name: "মুরলী কাঁদে",
+        path: "assets/music/কৃষ্ণ ভজন/মুরলী কাঁদে) Madhuraa Bhattacharya Atul Prasad Sen Krishna Gaan SVF Devotional (320 kbps).mp3"
+    },
+    {
+        name: "যুগল মিলন হইলো",
+        path: "assets/music/কৃষ্ণ ভজন/যুগল মিলন হইলো) Pousali Banerjee Radharaman Dutta SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "রস ঘন শ্যাম",
+        path: "assets/music/কৃষ্ণ ভজন/রস ঘন শ্যাম) Madhupourna Ganguly Nazrul Geeti SVF Devotional (128 kbps).mp3"
+    },
+    {
+        name: "রাধা রাধা সুর যে বাধা",
+        path: "assets/music/কৃষ্ণ ভজন/রাধা রাধা সুর যে বাধা.mp3"
+    },
+    {
+        name: "শুনাও তোমার অমৃত বাণী",
+        path: "assets/music/কৃষ্ণ ভজন/শুনাও তোমার অমৃত বাণী) Bibhabendu Bhattacharya SVF Devotional (128 kbps).mp3"
+    },
+    {
+        name: "শ্যাম অঙ্গে রাই",
+        path: "assets/music/কৃষ্ণ ভজন/শ্যাম অঙ্গে রাই) Aritra Dasgupta Full Audio Lyrical Krishna Naam SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "শ্যাম কালিয়া",
+        path: "assets/music/কৃষ্ণ ভজন/শ্যাম কালিয়া) Somchhanda Krishna Kirtan Radharaman Dutta SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "শ্যাম সখা",
+        path: "assets/music/কৃষ্ণ ভজন/শ্যাম সখা) Sayani Palit Mhare Ghar Aao Meera Bhajan SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "শ্যাম সুন্দর",
+        path: "assets/music/কৃষ্ণ ভজন/শ্যাম সুন্দর) Madhuraa Bhattacharya Nazrul Geeti SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "শ্যামকে আনো দেখি",
+        path: "assets/music/কৃষ্ণ ভজন/শ্যামকে আনো দেখি) Madol Folk Band Dr. Tapan Roy SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "শ্যামের বাঁশি",
+        path: "assets/music/কৃষ্ণ ভজন/শ্যামের বাঁশি) Madol Folk Band Krishna Dhamail Song SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "সখি আমি না হয়",
+        path: "assets/music/কৃষ্ণ ভজন/সখি আমি না হয়) Sayani Palit Nazrul Geeti Krishna Bhakti SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "সখী ওই শোনো",
+        path: "assets/music/কৃষ্ণ ভজন/সখী ওই শোনো) Tina Ghoshal Nazrul Geeti Krishna Bhajan SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "সখী সাজায়ে রাখল",
+        path: "assets/music/কৃষ্ণ ভজন/সখী সাজায়ে রাখল) Arpita Das Nazrul Geeti Video Song SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "সুরধ্বনির কিনারায়",
+        path: "assets/music/কৃষ্ণ ভজন/সুরধ্বনির কিনারায়) Pousali Banerjee SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "হরি নাম দিয়ে",
+        path: "assets/music/কৃষ্ণ ভজন/হরি নাম দিয়ে - Pousali Banerjee SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "হরি বলে আমার গৌর নাচে",
+        path: "assets/music/কৃষ্ণ ভজন/হরি বলে আমার গৌর নাচে - Buddhadeb Mukhopadhyay SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "হে কৃষ্ণ গোপাল হরি",
+        path: "assets/music/কৃষ্ণ ভজন/হে কৃষ্ণ গোপাল হরি) Vishakha Devi Dasi Krishna Bhajan SVF Devotional (256 kbps).mp3"
+    },
+    {
+        name: "হে নারায়ণ রাধিকা রমন",
+        path: "assets/music/কৃষ্ণ ভজন/হে নারায়ণ রাধিকা রমন .mp3"
+    }
 ];
 
 const mp3FilesClassic = [
