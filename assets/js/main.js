@@ -53,7 +53,7 @@ $(document).ready(function () {
             case 'matri.html':
                 return mp3FilesMatri;
             default:
-                return [];
+                return mp3FilesIndex;
         }
     }
 
