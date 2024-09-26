@@ -9,34 +9,16 @@ $(document).ready(function () {
     const totalTimeLabel = $('#totalTime');
     const playableSongName = $('#playableSongName');
     const volumeIcon = document.getElementById('volumeIcon');
-    // Get references to the button and slider elements
     const volumeButton = document.getElementById('volumeButton');
-    const slider = document.getElementById('volumeSlider');
+    const volumeSlider = document.getElementById('volumeSlider');
 
     let isPlaying = false;
 
+    // Set initial volume
     audioPlayer.volume = volumeBar.val() / 100;
 
     // Load the appropriate playlist based on the current page
-    let currentPlaylist = [];
-
-    // Load the appropriate playlist based on the current page
-    const currentPage = window.location.pathname.split('/').pop(); // Get the current page name
-    if (currentPage === 'index.html') {
-        currentPlaylist = mp3FilesIndex;
-    } else if (currentPage === 'latest.html') {
-        currentPlaylist = mp3FilesLatest;
-    } else if (currentPage === 'krishna.html') {
-        currentPlaylist = mp3FilesKrishna;
-    } else if (currentPage === 'classic.html') {
-        currentPlaylist = mp3FilesClassic;
-    } else if (currentPage === 'bromho.html') {
-        currentPlaylist = mp3FilesBromho;
-    } else if (currentPage === 'montro.html') {
-        currentPlaylist = mp3FilesMontro;
-    } else if (currentPage === 'matri.html') {
-        currentPlaylist = mp3FilesMatri;
-    }
+    let currentPlaylist = loadPlaylistByPage();
 
     // Load the playlist into the UI
     loadPlaylist(currentPlaylist);
@@ -48,38 +30,59 @@ $(document).ready(function () {
         loadPlaylist(filteredFiles);
     });
 
-    document.getElementById('playPreviousSong').addEventListener('click', function () {
-        // Logic to play the previous song
-        console.log('Playing previous song');
-    });
+    // Previous and next song buttons
+    document.getElementById('playPreviousSong').addEventListener('click', playPreviousSong);
+    document.getElementById('playNextSong').addEventListener('click', playNextSong);
 
-    document.getElementById('playNextSong').addEventListener('click', function () {
-        // Logic to play the next song
-        console.log('Playing next song');
-    });
+    // Load the playlist based on the current page
+    function loadPlaylistByPage() {
+        const currentPage = window.location.pathname.split('/').pop(); // Get the current page name
+        switch (currentPage) {
+            case 'index.html':
+                return mp3FilesIndex;
+            case 'latest.html':
+                return mp3FilesLatest;
+            case 'krishna.html':
+                return mp3FilesKrishna;
+            case 'classic.html':
+                return mp3FilesClassic;
+            case 'bromho.html':
+                return mp3FilesBromho;
+            case 'montro.html':
+                return mp3FilesMontro;
+            case 'matri.html':
+                return mp3FilesMatri;
+            default:
+                return [];
+        }
+    }
 
     // Load the playlist
     function loadPlaylist(files) {
         playlist.empty();
         files.forEach((file, index) => {
-            // Create a playlist item with a serial number
             const playlistItem = $('<div></div>').addClass('playlist-item').text(`${index + 1}. ${file.name}`);
             playlistItem.data('src', file.path);
 
             // Click event to play the song
             playlistItem.on('click', function () {
-                $('.playlist-item').removeClass('active-song');
-                $(this).addClass('active-song');
-                audioPlayer.src = $(this).data('src');
-                audioPlayer.play();
-                isPlaying = true;
-                updatePlayPauseIcon();
-                fetchAlbumArt($(this).data('src'));
-                $('#playableSongName').text($(this).text());
+                playSelectedSong($(this));
             });
 
             playlist.append(playlistItem);
         });
+    }
+
+    // Function to play a selected song
+    function playSelectedSong(item) {
+        $('.playlist-item').removeClass('active-song');
+        item.addClass('active-song');
+        audioPlayer.src = item.data('src');
+        audioPlayer.play();
+        isPlaying = true;
+        updatePlayPauseIcon();
+        fetchAlbumArt(item.data('src'));
+        playableSongName.text(item.text());
     }
 
     // Fetch album art from the MP3 file using AJAX
@@ -117,7 +120,7 @@ $(document).ready(function () {
         xhr.send();
     }
 
-    // Play/pause button
+    // Play/pause button functionality
     playPauseBtn.on('click', function () {
         if (isPlaying) {
             audioPlayer.pause();
@@ -130,17 +133,13 @@ $(document).ready(function () {
 
     // Update play/pause button icon
     function updatePlayPauseIcon() {
-        if (isPlaying) {
-            playPauseBtn.html('<i class="fas fa-pause"></i>');
-        } else {
-            playPauseBtn.html('<i class="fas fa-play"></i>');
-        }
+        playPauseBtn.html(isPlaying ? '<i class="fas fa-pause"></i>' : '<i class="fas fa-play"></i>');
     }
 
     // Update the seek bar and time
     audioPlayer.addEventListener('timeupdate', function () {
         const currentTime = audioPlayer.currentTime;
-        const duration = audioPlayer.duration;
+        const duration = audioPlayer.duration || 0;
 
         seekBar.val((currentTime / duration) * 100);
         currentTimeLabel.text(formatTime(currentTime));
@@ -156,8 +155,6 @@ $(document).ready(function () {
     // Volume control
     volumeBar.on('input', function () {
         audioPlayer.volume = volumeBar.val() / 100;
-
-        // Change the icon based on the volume level
         updateVolumeIcon(volumeBar.val());
     });
 
@@ -168,39 +165,52 @@ $(document).ready(function () {
         return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
     }
 
+    // Update volume icon
     function updateVolumeIcon(volumeLevel) {
         if (volumeLevel == 0) {
-            volumeIcon.className = 'fa-solid fa-volume-mute'; // Mute icon
+            volumeIcon.className = 'fa-solid fa-volume-mute';
         } else if (volumeLevel <= 33) {
-            volumeIcon.className = 'fa-solid fa-volume-off'; // Low volume icon
+            volumeIcon.className = 'fa-solid fa-volume-off';
         } else if (volumeLevel <= 66) {
-            volumeIcon.className = 'fa-solid fa-volume-low'; // Medium volume icon
+            volumeIcon.className = 'fa-solid fa-volume-low';
         } else {
-            volumeIcon.className = 'fa-solid fa-volume-high'; // High volume icon
+            volumeIcon.className = 'fa-solid fa-volume-high';
         }
     }
 
-    // Toggle the slider display when the button is clicked
+    // Toggle the volume slider display
     volumeButton.addEventListener('click', function (event) {
-        event.stopPropagation(); // Prevent the click from bubbling up to the document
-        if (slider.style.display === 'none' || slider.style.display === '') {
-            slider.style.display = 'block'; // Show the slider
-        } else {
-            slider.style.display = 'none'; // Hide the slider
+        event.stopPropagation();
+        volumeSlider.style.display = (volumeSlider.style.display === 'block') ? 'none' : 'block';
+    });
+
+    // Hide the volume slider when clicking elsewhere
+    document.addEventListener('click', function (event) {
+        if (volumeSlider.style.display === 'block' && !volumeButton.contains(event.target) && !volumeSlider.contains(event.target)) {
+            volumeSlider.style.display = 'none';
         }
     });
 
-    // Hide the slider when clicking anywhere else on the document
-    document.addEventListener('click', function (event) {
-        if (slider.style.display === 'block') {
-            // Check if the click is outside the button and the slider
-            if (!volumeButton.contains(event.target) && !slider.contains(event.target)) {
-                slider.style.display = 'none'; // Hide the slider
-            }
+    // Play the previous song
+    function playPreviousSong() {
+        const currentIndex = $('.playlist-item.active-song').index();
+        if (currentIndex > 0) {
+            const prevSong = $('.playlist-item').eq(currentIndex - 1);
+            playSelectedSong(prevSong);
         }
-    });
+    }
+
+    // Play the next song
+    function playNextSong() {
+        const currentIndex = $('.playlist-item.active-song').index();
+        const nextSong = $('.playlist-item').eq(currentIndex + 1);
+        if (nextSong.length) {
+            playSelectedSong(nextSong);
+        }
+    }
 });
 
+// Helper function to convert array buffer to base64
 function arrayBufferToBase64(buffer) {
     let binary = '';
     const bytes = new Uint8Array(buffer);
@@ -210,4 +220,3 @@ function arrayBufferToBase64(buffer) {
     }
     return window.btoa(binary);
 }
-
