@@ -75,9 +75,19 @@ $(document).ready(function () {
 
     // Function to play a selected song
     function playSelectedSong(item) {
+        // Show the loading screen when the song is selected
+        $('#loadingScreen').show();
+
         $('.playlist-item').removeClass('active-song');
         item.addClass('active-song');
         audioPlayer.src = item.data('src');
+
+        // Listen for when the song can start playing
+        audioPlayer.addEventListener('canplay', function () {
+            // Hide the loading screen once the song is ready
+            $('#loadingScreen').hide();
+        });
+
         audioPlayer.play();
         isPlaying = true;
         updatePlayPauseIcon();
