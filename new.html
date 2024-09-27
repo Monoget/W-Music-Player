@@ -54,30 +54,30 @@
 <div class="container mt-5 mb-5 pt-4">
     <div class="row justify-content-center mb-5">
         <div class="col-md-6 text-left mb-5">
-            <form action="" method="post">
+            <form action="https://formspree.io/f/mdknqaan" method="post" id="puja-song">
                 <h2 class="mb-4 text-center">অনুরোধ</h2>
                 <div class="mb-3">
-                    <label for="name" class="form-label">Your Name <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" id="name">
+                    <label for="name" class="form-label">আপনার নাম <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="name" name="Name" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address <span class="text-danger">*</span></label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <label for="exampleInputEmail1" class="form-label">ইমেল ঠিকানা বা ফোন নম্বর (ঐচ্ছিক)</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" name="Email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">আমরা আপনার তথ্য অন্য কারো সাথে শেয়ার করব না।</div>
                 </div>
                 <div class="mb-3">
-                    <label for="song_name" class="form-label">Song Name <span class="text-danger">*</span></label>
-                    <input type="email" class="form-control" id="song_name">
+                    <label for="song_name" class="form-label">গানের নাম <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control" id="song_name" name="Song_name" required>
                 </div>
                 <div class="mb-3">
-                    <label for="url" class="form-label">Song Link <span class="text-danger">*</span></label>
-                    <input type="url" class="form-control" id="url">
+                    <label for="url" class="form-label">গানের লিংক <span class="text-danger">*</span></label>
+                    <input type="url" class="form-control" id="url" name="Url" required>
                 </div>
                 <div class="mb-3">
-                    <label for="note" class="form-label">Note (optional)</label>
+                    <label for="note" class="form-label">নোট (ঐচ্ছিক)</label>
                     <textarea class="form-control" name="note" id="note" rows="4"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">তথ্য যোগ করুন</button>
             </form>
         </div>
     </div>
@@ -93,6 +93,51 @@
 <script src="assets/vendor/OwlCarousel/js/owl.carousel.min.js"></script>
 <script src="assets/vendor/uikit/js/uikit.min.js"></script>
 <script src="assets/vendor/uikit/js/uikit-icons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsmediatags/dist/jsmediatags.min.js"></script>
+
+<script>
+    let form = document.getElementById("puja-song");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        let data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                Swal.fire(
+                    'Success',
+                    'Thanks for your submission!',
+                    'success'
+                )
+                form.reset()
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        console.log(data["errors"].map(error => error["message"]).join(", "));
+                    } else {
+                        Swal.fire(
+                            'Error',
+                            'Oops! There was a problem submitting your form',
+                            'error'
+                        )
+                    }
+                })
+            }
+        }).catch(error => {
+            Swal.fire(
+                'Error',
+                'Oops! There was a problem submitting your form',
+                'error'
+            )
+        });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
 </body>
 </html>
