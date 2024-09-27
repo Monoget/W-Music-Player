@@ -217,6 +217,11 @@ $(document).ready(function () {
         }
     });
 
+    // Listen for when the current song ends
+    audioPlayer.addEventListener('ended', function () {
+        playNextSong();
+    });
+
     // Play the previous song
     function playPreviousSong() {
         const currentIndex = $('.playlist-item.active-song').index();
