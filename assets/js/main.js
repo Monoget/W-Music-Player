@@ -261,3 +261,8 @@ function arrayBufferToBase64(buffer) {
     }
     return window.btoa(binary);
 }
+
+window.addEventListener('load', function() {
+    const loadingScreen = document.getElementById('loadingScreen');
+    loadingScreen.style.display = 'none'; // Hide the preloader after the page loads
+});
