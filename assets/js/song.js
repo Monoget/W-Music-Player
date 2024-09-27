@@ -8,7 +8,7 @@ const mp3FilesIndex = [
         path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/DHAK-BAJA-KASHOR-BAJA-Video-Song--Shreya-Ghoshal--Jeet-Gannguli--Durga-Puja-Special-Songs-2016.mp3"
     },
     {
-        name: "Elo Je Maa (এল য ম)",
+        name: "Elo Je Maa",
         path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Elo-Je-Maa-(এল-য-ম)--Challenge-2--Dev--Puja--Abhijeet--Shreya-Ghoshal--Jeet-Gannguli--SVF.mp3"
     },
     {
@@ -155,7 +155,7 @@ const mp3FilesLatest = [
         path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Dugga-Elo---Official-Music-Video--Monali-Thakur--Guddu--Indranil-Das.mp3"
     },
     {
-        name: "Elo Je Maa (এল য ম)",
+        name: "Elo Je Maa",
         path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Elo-Je-Maa-(এল-য-ম)--Challenge-2--Dev--Puja--Abhijeet--Shreya-Ghoshal--Jeet-Gannguli--SVF.mp3"
     },
     {
