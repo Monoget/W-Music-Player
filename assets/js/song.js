@@ -1,5 +1,25 @@
 const mp3FilesIndex = [
     {
+        name: "Dugga Elo - Monali Thakur",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Dugga Elo - Official Music Video  Monali Thakur  Guddu  Indranil Das.mp3"
+    },
+    {
+        name: "DHAK BAJA KASHOR BAJA - Shreya Ghoshal",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/DHAK BAJA KASHOR BAJA Video Song  Shreya Ghoshal  Jeet Gannguli  Durga Puja Special Songs 2016.mp3"
+    },
+    {
+        name: "Elo Je Maa (এল য ম)",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Elo Je Maa (এল য ম)  Challenge 2  Dev  Puja  Abhijeet  Shreya Ghoshal  Jeet Gannguli  SVF.mp3"
+    },
+    {
+        name: "Dhaker Taley",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Dhaker Taley  Poran Jai Jolia Re  Dev  Subhashree AbhijeetParinitaSudipto  Jeet GannguliSVF.mp3"
+    },
+    {
+        name: "Durga Maa",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Durga Maa  Pujo Special Song  Akassh  Haimanti  Puja 2018.mp3"
+    },
+    {
         name: "Karm hai tu moksh hai tu",
         path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Karm hai tu moksh hai tu Sound Track (320 kbps).mp3"
     },
@@ -122,6 +142,26 @@ const mp3FilesIndex = [
 ];
 
 const mp3FilesLatest = [
+    {
+        name: "DHAK BAJA KASHOR BAJA - Shreya Ghoshal",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/DHAK BAJA KASHOR BAJA Video Song  Shreya Ghoshal  Jeet Gannguli  Durga Puja Special Songs 2016.mp3"
+    },
+    {
+        name: "Dugga Elo - Monali Thakur",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Dugga Elo - Official Music Video  Monali Thakur  Guddu  Indranil Das.mp3"
+    },
+    {
+        name: "Elo Je Maa (এল য ম)",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Elo Je Maa (এল য ম)  Challenge 2  Dev  Puja  Abhijeet  Shreya Ghoshal  Jeet Gannguli  SVF.mp3"
+    },
+    {
+        name: "Dhaker Taley",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Dhaker Taley  Poran Jai Jolia Re  Dev  Subhashree AbhijeetParinitaSudipto  Jeet GannguliSVF.mp3"
+    },
+    {
+        name: "Durga Maa",
+        path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Durga/Durga Maa  Pujo Special Song  Akassh  Haimanti  Puja 2018.mp3"
+    },
     {
         name: "IM- Ayigirinandini Dasaraspl - VeenaSrivani",
         path: "assets/music/আধুনিক ফিউশন ও অন্যান্য/Instrumental Music/Ayigirinandini Dasaraspl VeenaSrivani.mp3"
