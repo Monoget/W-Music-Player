@@ -110,22 +110,22 @@ $(document).ready(function () {
                             const base64String = arrayBufferToBase64(albumArt.data);
                             albumCover.attr('src', 'data:' + albumArt.format + ';base64,' + base64String);
                         } else {
-                            albumCover.attr('src', 'assets/images/default-cover.jpg');
+                            albumCover.attr('src', 'assets/images/default_cover.jpg');
                         }
                     },
                     onError: function (error) {
                         console.error('Error reading tags:', error);
-                        albumCover.attr('src', 'assets/images/default-cover.jpg');
+                        albumCover.attr('src', 'assets/images/default_cover.jpg');
                     }
                 });
             } else {
                 console.error('Failed to fetch file:', xhr.status);
-                albumCover.attr('src', 'assets/images/default-cover.jpg');
+                albumCover.attr('src', 'assets/images/default_cover.jpg');
             }
         };
         xhr.onerror = function () {
             console.error('Error fetching file.');
-            albumCover.attr('src', 'assets/images/default-cover.jpg');
+            albumCover.attr('src', 'assets/images/default_cover.jpg');
         };
         xhr.send();
     }
