@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <meta content="পূজা স্পেশাল গানের মনোমুগ্ধকর সংগ্রহ উপভোগ করুন যা উৎসবের আমেজকে প্রাণবন্ত করে তোলে। আপনার প্রিয় ভক্তিমূলক এবং ঐতিহ্যবাহী গান শুনে পূজার আনন্দ বাড়িয়ে তুলুন।"
+          name="description">
+    <meta name="keywords" content="পূজা স্পেশাল গান, পূজা ভক্তিমূলক গান, দুর্গা পূজা গান, পূজার বাংলা গান, পূজা উৎসবের গান, পূজা আরতি গান, পূজার ঐতিহ্যবাহী সঙ্গীত, পূজা স্পেশাল সঙ্গীত, পূজা গান ডাউনলোড, পূজা গান অনলাইন, জনপ্রিয় পূজা গান">
+    <meta content="Monoget Saha" name="author">
+
+    <meta content="পূজা স্পেশাল - বেশি বাজানো গানগুলি" property="og:title"/>
+    <meta content="পূজা স্পেশাল গানের মনোমুগ্ধকর সংগ্রহ উপভোগ করুন যা উৎসবের আমেজকে প্রাণবন্ত করে তোলে। আপনার প্রিয় ভক্তিমূলক এবং ঐতিহ্যবাহী গান শুনে পূজার আনন্দ বাড়িয়ে তুলুন।"
+          property="og:description"/>
+    <meta content="https://monoget.github.io/W-Music-Player/assets/images/background.jpg" property="og:image"/>
+    <meta content="image/png" property="og:image:type"/>
+    <meta content="1920" property="og:image:width"/>
+    <meta content="1227" property="og:image:height"/>
+    <meta content="Next Info Techs Limited" property="og:image:alt"/>
+    <meta content="Next Info Techs Limited" property="og:description"/>
+    <meta content="https://monoget.github.io/W-Music-Player/" property="og:url"/>
+    <meta content="website" property="og:type"/>
+
+    <title>Monoget Special</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link href="assets/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/FontAwesome/css/all.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/Bootstrap/font/bootstrap-icons.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/uikit/css/uikit.min.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">পূজা স্পেশাল</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">বেশি বাজানো গানগুলি</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="latest.html">আধুনিক ফিউশন ও অন্যান্য</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="krishna.html">কৃষ্ণ ভজন</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classic.html">ক্লাসিক</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bromho.html">ব্রহ্মসংগীত</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="montro.html">মন্ত্র-স্তোত্র-বন্দনা</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="matri.html">মাতৃ আরাধনা</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <a href="new.html" class="btn btn-outline-success">নতুন গানের জন্য অনুরোধ</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div id="loadingScreen" style="display: none;">
+    <div class="loading-content">
+        <p>Loading<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></p>
+    </div>
+</div>
+
+<div class="container mt-5 mb-5 pt-4">
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-6 mb-5">
+            <h2 class="mb-4 text-center" id="playableSongName">Monoget Special</h2>
+
+            <div class="album-cover-container text-center">
+                <i class="fas fa-chevron-left previous-icon" id="playPreviousSong"></i>
+                <img id="albumCover" src="assets/images/default_cover.jpg" alt="Album Cover" class="img-fluid">
+                <i class="fas fa-chevron-right next-icon" id="playNextSong"></i>
+            </div>
+
+            <!-- Custom Audio Controller -->
+            <div class="custom-audio-controller mb-3">
+                <button id="playPauseBtn" class="btn btn-primary"><i class="fas fa-play"></i></button>
+                <input type="range" id="seekBar" value="0" class="seek-bar">
+                <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
+                <div class="soundBtn ms-2" style="position: relative">
+                    <button id="volumeButton" class="btn btn-secondary" style="">
+                        <i class="fa-solid fa-volume-high" id="volumeIcon"></i>
+                    </button>
+                    <div id="volumeSlider">
+                        <input type="range" id="volumeBar" value="100" class="volume-bar">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Search Box -->
+            <input type="text" id="searchBox" class="form-control mb-3" placeholder="Search audio...">
+
+            <!-- Audio Player (Hidden) -->
+            <audio id="audioPlayer" class="w-100" style="display:none;">
+                Your browser does not support the audio element.
+            </audio>
+
+            <!-- Playlist -->
+            <div class="playlist-container mt-4" id="playlist"></div>
+        </div>
+    </div>
+</div>
+
+<footer class="fixed-bottom bg-light pt-3">
+    <div class="container-fluid">
+        <p class="text-center">© 2024. All rights reserved by <a href="https://monoget.com.bd" target="_blank">Monoget Saha</a>.</p>
+    </div>
+</footer>
+<script src="assets/vendor/Bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jQuery/jquery-3.6.4.min.js"></script>
+<script src="assets/vendor/OwlCarousel/js/owl.carousel.min.js"></script>
+<script src="assets/vendor/uikit/js/uikit.min.js"></script>
+<script src="assets/vendor/uikit/js/uikit-icons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsmediatags/dist/jsmediatags.min.js"></script>
+<script src="assets/js/song.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

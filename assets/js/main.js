@@ -52,6 +52,8 @@ $(document).ready(function () {
                 return mp3FilesMontro;
             case 'matri.html':
                 return mp3FilesMatri;
+            case 'monoget.html':
+                return mp3FilesMonoget;
             default:
                 return mp3FilesIndex;
         }

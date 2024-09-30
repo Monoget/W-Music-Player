@@ -1122,3 +1122,125 @@ const mp3FilesMatri = [
         path: "assets/music/মাতৃ আরাধনা/সুরের প্রেমাঞ্জলী - Aparajita Chakraborty Shyama Sangeet SVF Devotional (320 kbps).mp3"
     }
 ];
+
+const mp3FilesMonoget = [
+    {
+        name: "Why This Kolaveri Di Official Video Dhanush Anirudh Ravichander Shruti Haasan",
+        path: "assets/music/monoget/3 - Why This Kolaveri Di Official Video Dhanush Anirudh Ravichander Shruti Haasan.mp3"
+    },
+    {
+        name: "A.R. Rahman - Barso Re",
+        path: "assets/music/monoget/A.R. Rahman - Barso Re (Lyric Video).mp3"
+    },
+    {
+        name: "Aao Sunao Pyar Ki Ek Kahani Hindi Hit Song Shreya Ghosal, Sonu Nigam Hrithik Roshan, Priyanka",
+        path: "assets/music/monoget/Aao Sunao Pyar Ki Ek Kahani Hindi Hit Song Shreya Ghosal, Sonu Nigam Hrithik Roshan, Priyanka.mp3"
+    },
+    {
+        name: "Bahara Full Video - I Hate Luv Storys Sonam Kapoor, Imran Shreya Ghoshal, Sona Mohapatra",
+        path: "assets/music/monoget/Bahara Full Video.mp3"
+    },
+    {
+        name: "Barsaat Ke Mausam Mein Naajayaz Naseeruddin Shah Kumar Sanu Roop Kumar Rathod",
+        path: "assets/music/monoget/Barsaat Ke Mausam Mein Naajayaz Naseeruddin Shah Kumar Sanu Roop Kumar Rathod.mp3"
+    },
+    {
+        name: "Behti Hawa Sa Tha Woh 3 Idiots Aamir Khan, Madhavan, Sharman J Shaan & Shantanu M Swanand K",
+        path: "assets/music/monoget/Behti Hawa Sa Tha Woh 3 Idiots Aamir Khan, Madhavan, Sharman J Shaan & Shantanu M Swanand K.mp3"
+    },
+    {
+        name: "Bole Chudiyan K3G Amitabh, Shah Rukh, Kajol, Kareena, Hrithik Udit Narayan Karan Johar 4K",
+        path: "assets/music/monoget/Bole Chudiyan K3G Amitabh, Shah Rukh, Kajol, Kareena, Hrithik Udit Narayan Karan Johar 4K.mp3"
+    },
+    {name: "Chaar Kadam", path: "assets/music/monoget/Chaar Kadam.mp3"},
+    {
+        name: "Chalte Chalte Full Song Mohabbatein Shah Rukh Khan, Uday Chopra, Jugal Hansraj, Jimmy Shergill",
+        path: "assets/music/monoget/Chalte Chalte Full Song Mohabbatein Shah Rukh Khan, Uday Chopra, Jugal Hansraj, Jimmy Shergill.mp3"
+    },
+    {
+        name: "Dard Karaara Full Song Dum Laga Ke Haisha, Ayushmann Khurrana, Bhumi, Kumar Sanu, Sadhana Sargam",
+        path: "assets/music/monoget/Dard Karaara Full Song Dum Laga Ke Haisha, Ayushmann Khurrana, Bhumi, Kumar Sanu, Sadhana Sargam.mp3"
+    },
+    {
+        name: "Dilbara Full Song Dhoom Abhishek Bachchan, Uday, Esha Abhijeet, Sowmya Pritam, Sameer",
+        path: "assets/music/monoget/Dilbara Full Song Dhoom Abhishek Bachchan, Uday, Esha Abhijeet, Sowmya Pritam, Sameer.mp3"
+    },
+    {name: "Falguni Pathak - Chudi", path: "assets/music/monoget/Falguni Pathak - Chudi.mp3"},
+    {
+        name: "Give Me Some Sunshine - 3 Idiots Aamir Khan, Madhavan, Sharman J Suraj Jagan Shantanu Moitra",
+        path: "assets/music/monoget/Give Me Some Sunshine - 3 Idiots Aamir Khan, Madhavan, Sharman J Suraj Jagan Shantanu Moitra.mp3"
+    },
+    {
+        name: "Guli Mata - Saad Lamjarred Shreya Ghoshal Jennifer Winget Anshul Garg",
+        path: "assets/music/monoget/Guli Mata - Saad Lamjarred Shreya Ghoshal Jennifer Winget Anshul Garg.mp3"
+    },
+    {
+        name: "Haan Ke Haan Lyrical Song Maharaj A Netflix Film Junaid, Sharvari Sohail, Monali, Kausar M",
+        path: "assets/music/monoget/Haan Ke Haan Lyrical Song Maharaj A Netflix Film Junaid, Sharvari Sohail, Monali, Kausar M.mp3"
+    },
+    {
+        name: "Jeene Laga Hoon Ramaiya Vastavaiya Girish Kumar, Shruti Haasan Atif Aslam, Shreya Goshal",
+        path: "assets/music/monoget/Jeene Laga Hoon Ramaiya Vastavaiya Girish Kumar, Shruti Haasan Atif Aslam, Shreya Goshal.mp3"
+    },
+    {
+        name: "Kashmir Main Tu Kanyakumari(Lyrical)Chennai Express Shahrukh K, Deepika P, Sunidhi C, Arijit S, Neeti",
+        path: "assets/music/monoget/Kashmir Main Tu Kanyakumari.mp3"
+    },
+    {
+        name: "Kyaa Dil Ne Kahaa Full Video - Title Song Tusshar Kapoor, Esha Udit Narayan, Alka Yagnik",
+        path: "assets/music/monoget/Kyaa Dil Ne Kahaa Full Video.mp3"
+    },
+    {name: "Lut Gaye", path: "assets/music/monoget/Lut Gaye.mp3"},
+    {
+        name: "Main Hoon Na Title Song Full Video Main Hoon Na Shahrukh Khan, Zayed Khan",
+        path: "assets/music/monoget/Main Hoon Na Title Song Full Video Main Hoon Na Shahrukh Khan, Zayed Khan.mp3"
+    },
+    {
+        name: "Naach Meri Jaan - Full Song Video Salman Khan Pritam",
+        path: "assets/music/monoget/Naach Meri Jaan - Full Song Video Salman Khan Pritam.mp3"
+    },
+    {
+        name: "O Bekhabar [Full Song] Action Replayy",
+        path: "assets/music/monoget/O Bekhabar [Full Song] Action Replayy.mp3"
+    },
+    {
+        name: "Oh Oh Jane Jaana Salman Khan Full Song Pyaar Kiya Toh Darna Kya",
+        path: "assets/music/monoget/Oh Oh Jane Jaana Salman Khan Full Song Pyaar Kiya Toh Darna Kya.mp3"
+    },
+    {
+        name: "Pal Pal Har Pal Lyrical Video Song Lage Raho Munna Bhai Sonu Nigam, Shreya Ghosal Sanjay D, Vidya",
+        path: "assets/music/monoget/Pal Pal Har Pal.mp3"
+    },
+    {
+        name: "Pee Loon Lyrical Song Once Upon A Time in Mumbai Pritam Emraan Hashmi, Prachi Desai",
+        path: "assets/music/monoget/Pee Loon Lyrical Song Once Upon A Time in Mumbai Pritam Emraan Hashmi, Prachi Desai.mp3"
+    },
+    {
+        name: "Sorboto Mongol Radhe IPDC আমদর গন Chanchal Chowdhury & Meher Afroz Shaon",
+        path: "assets/music/monoget/Sorboto Mongol Radhe IPDC আমদর গন Chanchal Chowdhury & Meher Afroz Shaon.mp3"
+    },
+    {
+        name: "Tera Fitoor Lyrical - Genius Utkarsh Sharma, Ishita Chauhan Arijit Singh Himesh Reshammiya",
+        path: "assets/music/monoget/Tera Fitoor Lyrical - Genius Utkarsh Sharma, Ishita Chauhan Arijit Singh Himesh Reshammiya.mp3"
+    },
+    {
+        name: "Tera Fitoor X Dil Meri Na Sune Arijit Singh, Atif Aslam Genius Utkarsh Sharma, Ishita Chauhan",
+        path: "assets/music/monoget/Tera Fitoor X Dil Meri Na Sune Arijit Singh, Atif Aslam Genius Utkarsh Sharma, Ishita Chauhan.mp3"
+    },
+    {
+        name: "Top 5 Best songs of K.K Hirvo R",
+        path: "assets/music/monoget/Top 5 Best songs of K.K Hirvo R.mp3"
+    },
+    {
+        name: "TU HAI Video Song MOHENJO DARO A.R. RAHMAN,SANAH MOIDUTTY Hrithik Roshan & Pooja Hegde",
+        path: "assets/music/monoget/TU HAI Video Song MOHENJO DARO A.R. RAHMAN,SANAH MOIDUTTY Hrithik Roshan & Pooja Hegde.mp3"
+    },
+    {
+        name: "Tune Jo Na Kaha Song New York John Abraham, Katrina Kaif, Neil Nitin M Mohit Chauhan Pritam",
+        path: "assets/music/monoget/Tune Jo Na Kaha Song New York John Abraham, Katrina Kaif, Neil Nitin M Mohit Chauhan Pritam.mp3"
+    },
+    {
+        name: "যদ বর বর একই সর পরম তময় কদয় Jodi bare bare eki sure prem tomay kaday Kobitar Gaan",
+        path: "assets/music/monoget/যদ বর বর একই সর পরম তময় কদয় Jodi bare bare eki sure prem tomay kaday Kobitar Gaan.mp3"
+    }
+];
