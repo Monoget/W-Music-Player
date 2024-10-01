@@ -1125,6 +1125,14 @@ const mp3FilesMatri = [
 
 const mp3FilesMonoget = [
     {
+        name: "Aankhon Mein Doob Jaane Ko  THE 9TEEN  K3G  Deewani Hai Dekho",
+        path: "assets/music/monoget/Aankhon Mein Doob Jaane Ko  THE 9TEEN  K3G  Deewani Hai Dekho.mp3"
+    },
+    {
+        name: "Gulabi Aankhen Sanam",
+        path: "assets/music/monoget/Gulabi Aankhen Sanam.mp3"
+    },
+    {
         name: "Why This Kolaveri Di Official Video Dhanush Anirudh Ravichander Shruti Haasan",
         path: "assets/music/monoget/3 - Why This Kolaveri Di Official Video Dhanush Anirudh Ravichander Shruti Haasan.mp3"
     },
