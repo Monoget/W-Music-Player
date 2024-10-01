@@ -1133,8 +1133,8 @@ const mp3FilesMonoget = [
         path: "assets/music/monoget/A.R. Rahman - Barso Re (Lyric Video).mp3"
     },
     {
-        name: "Aao Sunao Pyar Ki Ek Kahani Hindi Hit Song Shreya Ghosal, Sonu Nigam Hrithik Roshan, Priyanka",
-        path: "assets/music/monoget/Aao Sunao Pyar Ki Ek Kahani Hindi Hit Song Shreya Ghosal, Sonu Nigam Hrithik Roshan, Priyanka.mp3"
+        name: "Aao Sunao Pyar Ki Ek Kahani",
+        path: "assets/music/monoget/Aao Sunao Pyar Ki Ek Kahani.mp3"
     },
     {
         name: "Bahara Full Video - I Hate Luv Storys Sonam Kapoor, Imran Shreya Ghoshal, Sona Mohapatra",
