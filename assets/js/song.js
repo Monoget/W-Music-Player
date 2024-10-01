@@ -1145,17 +1145,17 @@ const mp3FilesMonoget = [
         path: "assets/music/monoget/Barsaat Ke Mausam Mein Naajayaz Naseeruddin Shah Kumar Sanu Roop Kumar Rathod.mp3"
     },
     {
-        name: "Behti Hawa Sa Tha Woh 3 Idiots Aamir Khan, Madhavan, Sharman J Shaan & Shantanu M Swanand K",
-        path: "assets/music/monoget/Behti Hawa Sa Tha Woh 3 Idiots Aamir Khan, Madhavan, Sharman J Shaan & Shantanu M Swanand K.mp3"
+        name: "Behti Hawa Sa Tha Woh 3 Idiots",
+        path: "assets/music/monoget/Behti Hawa Sa Tha Woh 3 Idiots.mp3"
     },
     {
-        name: "Bole Chudiyan K3G Amitabh, Shah Rukh, Kajol, Kareena, Hrithik Udit Narayan Karan Johar 4K",
-        path: "assets/music/monoget/Bole Chudiyan K3G Amitabh, Shah Rukh, Kajol, Kareena, Hrithik Udit Narayan Karan Johar 4K.mp3"
+        name: "Bole Chudiyan K3G",
+        path: "assets/music/monoget/Bole Chudiyan K3G.mp3"
     },
     {name: "Chaar Kadam", path: "assets/music/monoget/Chaar Kadam.mp3"},
     {
-        name: "Chalte Chalte Full Song Mohabbatein Shah Rukh Khan, Uday Chopra, Jugal Hansraj, Jimmy Shergill",
-        path: "assets/music/monoget/Chalte Chalte Full Song Mohabbatein Shah Rukh Khan, Uday Chopra, Jugal Hansraj, Jimmy Shergill.mp3"
+        name: "Chalte Chalte",
+        path: "assets/music/monoget/Chalte Chalte.mp3"
     },
     {
         name: "Dard Karaara Full Song Dum Laga Ke Haisha, Ayushmann Khurrana, Bhumi, Kumar Sanu, Sadhana Sargam",
@@ -1167,8 +1167,8 @@ const mp3FilesMonoget = [
     },
     {name: "Falguni Pathak - Chudi", path: "assets/music/monoget/Falguni Pathak - Chudi.mp3"},
     {
-        name: "Give Me Some Sunshine - 3 Idiots Aamir Khan, Madhavan, Sharman J Suraj Jagan Shantanu Moitra",
-        path: "assets/music/monoget/Give Me Some Sunshine - 3 Idiots Aamir Khan, Madhavan, Sharman J Suraj Jagan Shantanu Moitra.mp3"
+        name: "Give Me Some Sunshine",
+        path: "assets/music/monoget/Give Me Some Sunshine.mp3"
     },
     {
         name: "Guli Mata - Saad Lamjarred Shreya Ghoshal Jennifer Winget Anshul Garg",
